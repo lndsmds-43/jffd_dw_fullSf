@@ -10,18 +10,51 @@ var exceptionByOrderResponse = getRecords(
 // output text/plain ---
 // executable(sfProcessException::exceptionByOrder::query) 
 
+
 output application/json
 ---
-sfProcessException::exceptionByOrder::groupedExceptions
 
-mapObject ((value, key, index) -> {
-    (key) : (
-        (value.StatusCategory contains "RESOLVED")
+exceptionByOrderResponse
+groupBy ((orderExceptions) -> orderExceptions.OrderSummaryId)
+mapObject ((exceptionsInfo, orderSummaryId) -> 
+    (orderSummaryId) : 
+        (exceptionsInfo.StatusCategory contains "RESOLVED")
         and
-        !(value.StatusCategory contains "ACTIVE")
+        not (exceptionsInfo.StatusCategory contains "ACTIVE")
     )
-    })
-filterObject ((value, key, index) -> value)
+filterObject ((value_isResolved) -> value_isResolved)
+pluck ((value_isResolved, orderSummaryId, index) -> orderSummaryId)
+/*[
+  "1OsVF000000xQg20AE"
+]
+
+
+
+// exceptionByOrderResponse
+// groupBy ((order) -> order.OrderSummaryId)
+// mapObject ((value, key) -> 
+//     (key) : 
+//         (value.StatusCategory contains "RESOLVED")
+//         and
+//         not (value.StatusCategory contains "ACTIVE")
+//     )
+// filterObject ($)
+/*
+{
+  "1OsVF000000xQg20AE": true
+}
+*/
+
+// sfProcessException::exceptionByOrder::groupedExceptions
+
+// mapObject ((value, key, index) -> {
+//     (key) : (
+//         (value.StatusCategory contains "RESOLVED")
+//         and
+//         !(value.StatusCategory contains "ACTIVE")
+//     )
+//     })
+// filterObject ((value, key, index) -> value)
 /*
 {
   "1OsVF000000xQg20AE": true
