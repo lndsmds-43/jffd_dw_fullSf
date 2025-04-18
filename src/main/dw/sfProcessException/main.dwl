@@ -13,17 +13,56 @@ var exceptionByOrderResponse = getRecords(
 output application/json
 ---
 sfProcessException::exceptionByOrder::groupedExceptions
-// "fefef
+
+mapObject ((value, key, index) -> {
+    (key) : (
+        (value.StatusCategory contains "RESOLVED")
+        and
+        !(value.StatusCategory contains "ACTIVE")
+    )
+    })
+filterObject ((value, key, index) -> value)
+/*
+{
+  "1OsVF000000xQg20AE": true
+}
+*/
+
+
 
 // Makes a map that kind of corresponds
 // mapObject ((value, key, index) -> {
-//     "OrderSummaryId" : key,
-//     "StatusCategories" : (
+//     (key) : (
 //         (value.StatusCategory contains "RESOLVED")
 //         and
 //         !(value.StatusCategories contains "ACTIVE")
 //     )
 //     })
+/*
+{
+  "1OsVF000000rCRF0A2": false,
+  "1OsVF000000rVaM0AU": false,
+  "1OsVF000000rXfO0AU": false,
+  "1OsVF000000rlK90AI": false,
+  "1OsVF000000rnLx0AI": false,
+  "1OsVF000000sIb50AE": false,
+  "1OsVF000000sIuP0AU": false,
+  "1OsVF000000sMtB0AU": false,
+  "1OsVF000000uCw90AE": false,
+  "1OsVF000000x1w90AA": true,
+  "1OsVF000000xQg20AE": true,
+  "1OsVF000000xqaT0AQ": false,
+  "1OsVF000000yU9h0AE": false,
+  "1OsVF000000yV2X0AU": false
+}
+*/
+
+/*
+{
+  "1OsVF000000x1w90AA": true,
+  "1OsVF000000xQg20AE": true
+}
+*/
 
 //filterObject ((value, key, index) -> sizeOf(value.StatusCategory) > 1)
 
