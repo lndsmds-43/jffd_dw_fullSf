@@ -14,16 +14,35 @@ var exceptionByOrderResponse = getRecords(
 output application/json
 ---
 
+// Cash money
 exceptionByOrderResponse
-groupBy ((orderExceptions) -> orderExceptions.OrderSummaryId)
-mapObject ((exceptionsInfo, orderSummaryId) -> 
-    (orderSummaryId) : 
-        (exceptionsInfo.StatusCategory contains "RESOLVED")
+groupBy ($.OrderSummaryId)
+mapObject ( 
+    ($$) : 
+        ($.StatusCategory contains "RESOLVED")
         and
-        not (exceptionsInfo.StatusCategory contains "ACTIVE")
+        not ($.StatusCategory contains "ACTIVE")
     )
-filterObject ((value_isResolved) -> value_isResolved)
-pluck ((value_isResolved, orderSummaryId, index) -> orderSummaryId)
+filterObject $
+pluck $$
+/*
+[
+  "1OsVF000000xQg20AE"
+]
+*/
+
+
+
+// exceptionByOrderResponse
+// groupBy ((orderExceptions) -> orderExceptions.OrderSummaryId)
+// mapObject ((exceptionsInfo, orderSummaryId) -> 
+//     (orderSummaryId) : 
+//         (exceptionsInfo.StatusCategory contains "RESOLVED")
+//         and
+//         not (exceptionsInfo.StatusCategory contains "ACTIVE")
+//     )
+// filterObject ((value_isResolved) -> value_isResolved)
+// pluck ((value_isResolved, orderSummaryId, index) -> orderSummaryId)
 /*[
   "1OsVF000000xQg20AE"
 ]
