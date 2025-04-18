@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "SfOrderId": "1OsVF000000uKFN0A2",
+    "OrderNumber": "stg-00106421",
+    "OrderDate": "2025-03-28",
+    "MessageType": "Purchase Order",
+    "Event": "PENDING_CREATION",
+    "Topic": "order-exchange",
+    "Channel": "ORDER_CREATION",
+    "DateTime": "2025-04-04T23:17:01.983428496Z"
+  },
+  "message": [
+    {
+      "header": {
+        "orderNumber": "stg-00106421",
+        "sfOrderId": "1OsVF000000uKFN0A2",
+        "orderDate": "2025-03-28",
+        "type": "Purchase Order",
+        "status": "Approved"
+      },
+      "shipTo": {
+        "name": "Bella QA",
+        "address": {
+          "line1": "1100 Larkspur Landing Circle",
+          "city": "Larkspur",
+          "state": "CA",
+          "postalCode": "94939",
+          "countryCode": "US",
+          "countryText": "United States"
+        },
+        "contact": {
+          "name": "Bella QA",
+          "phone": "505-415-3148",
+          "email": "bellap@justfoodfordogs.com"
+        }
+      },
+      "billTo": {
+        "name": "Bella QA",
+        "address": {
+          "line1": "1100 Larkspur Landing Circle",
+          "city": "Larkspur",
+          "state": "CA",
+          "postalCode": "94939",
+          "countryCode": "US",
+          "countryText": "United States"
+        }
+      },
+      "shippingInstructions": [
+        {
+          "cost": 19.99
+        }
+      ],
+      "payments": [
+        {
+          "amount": 107.07,
+          "batchId": "1514014",
+          "method": "Visa - 5262",
+          "sfPaymentId": "0bMVF000000ANg52AG"
+        }
+      ],
+      "lineItems": [
+        {
+          "quantity": 1,
+          "unitPrice": 98,
+          "nsItemId": "8506",
+          "description": "JustFresh Home-Cooked Turkey (12 oz 14 Pack)",
+          "location": {
+            "sfLocationId": "131VF000000yHhBYAU",
+            "description": "Smart WH - Edgerton KS"
+          },
+          "itemType": "item"
+        },
+        {
+          "taxAmount": 9.07,
+          "unitPrice": 9.07,
+          "itemType": "tax"
+        },
+        {
+          "nsItemId": "8794",
+          "description": "Shipping Price Adjustment",
+          "unitPrice": -19.99,
+          "itemType": "discount"
+        }
+      ]
+    }
+  ]
+}

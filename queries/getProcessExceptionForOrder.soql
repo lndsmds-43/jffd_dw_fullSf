@@ -1,0 +1,5 @@
+SELECT fields(all)
+FROM OrderSummary 
+WHERE Id = '1OsVF000000xQg20AE'
+
+sf data:query --query "SELECT fields(all) FROM OrderSummary LIMIT 1" --json | clip

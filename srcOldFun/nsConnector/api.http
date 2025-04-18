@@ -1,0 +1,3 @@
+//Get Item Fulfillment by Id
+
+GET http://localhost:8081/itemFulfillment/23061853

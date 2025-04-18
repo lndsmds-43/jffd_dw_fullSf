@@ -1,0 +1,1 @@
+"SELECT OrderItemSummaryId, FulfillmentOrderId, FulfillmentOrder.FulfilledFromLocation.id, FulfillmentOrder.FulfilledFromLocation.Name FROM FulfillmentOrderLineItem WHERE FulfillmentOrder.OrderSummaryId IN ('1OsVF000000nROs0AM', '1OsVF000000nSPl0AM')"

@@ -1,0 +1,102 @@
+{
+    "metadata": {
+      "SfOrderId": "1OsVF000000xQg20AE",
+      "OrderNumber": "stg-00106427",
+      "OrderDate": "2025-04-01",
+      "MessageType": "Purchase Order",
+      "Event": "Pending Creation",
+      "Topic": "order-exchange",
+      "Channel": "ORDER_SYNC",
+      "DateTime": "2025-04-08T12:38:09.896-04:00"
+    },
+    "message": [
+      {
+        "header": {
+          "orderNumber": "stg-00106427",
+          "sfOrderId": "1OsVF000000xQg20AE",
+          "orderDate": "2025-04-01",
+          "type": "Purchase Order",
+          "status": "Approved"
+        },
+        "shipTo": {
+          "name": "ready mruyi",
+          "address": {
+            "line1": "123 Main St",
+            "city": "Brookville",
+            "state": "OH",
+            "postalCode": "45308",
+            "countryCode": "US",
+            "countryText": "United States"
+          },
+          "contact": {
+            "name": "ready mruyi",
+            "phone": "937-555-5454",
+            "email": "test45@nothing.com"
+          }
+        },
+        "billTo": {
+          "name": "ready mruyi",
+          "address": {
+            "line1": "123 Main St",
+            "city": "Brookville",
+            "state": "OH",
+            "postalCode": "45308",
+            "countryCode": "US",
+            "countryText": "United States"
+          }
+        },
+        "shippingInstructions": [
+          {
+            "cost": 19.99
+          }
+        ],
+        "payments": [
+          {
+            "amount": 228.97,
+            "batchId": "1514833",
+            "method": "Visa - 5262",
+            "sfPaymentId": "0bMVF000000Cfgw2AC"
+          }
+        ],
+        "lineItems": [
+          {
+            "quantity": 1,
+            "unitPrice": 342.99,
+            "nsItemId": "3540",
+            "description": "Venison & Squash 72 oz (7 Pack) Large Box",
+            "location": {
+              "sfLocationId": "131VF000000yHh9YAE",
+              "description": "Smart WH - Northampton PA"
+            },
+            "itemType": "item"
+          },
+          {
+            "nsItemId": "4244",
+            "description": "FBS100401060003 - Order Price Adjustment",
+            "unitPrice": -130,
+            "itemType": "discount"
+          },
+          {
+            "taxAmount": 15.98,
+            "unitPrice": 15.98,
+            "itemType": "tax"
+          },
+          {
+            "nsItemId": "8793",
+            "description": "Shipping Price Adjustment",
+            "unitPrice": -19.99,
+            "itemType": "discount"
+          }
+        ],
+        "fulfillments": [
+          {
+            "sfFulfillmentId": "0a3VF0000002xTpYAI",
+            "location": {
+              "sfLocationId": "131VF000000yHh9YAE",
+              "description": "Smart WH - Northampton PA"
+            }
+          }
+        ]
+      }
+    ]
+  }

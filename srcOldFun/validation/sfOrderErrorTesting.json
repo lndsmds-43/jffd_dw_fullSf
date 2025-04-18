@@ -1,0 +1,96 @@
+[
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF00000087tx2AA",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "179.12"
+        }
+      ],
+      "Account": {
+        "Phone": "782-123-4567",
+        "Id": "001VF00000IsGGjYAN",
+        "type": "Account",
+        "PersonEmail": "vivekperf@yopmail.com",
+        "Name": "Vivek Kanda"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GFWeYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "167.99",
+          "NS_Item_ID__c": "6651",
+          "TotalTaxAmount": "11.13",
+          "TotalLineAmount": "167.99",
+          "Id": "10uVF000002GFWbYAO",
+          "type": "OrderItemSummary",
+          "Name": "Variety Pack - Sampler Box 18 oz (14 Pack)"
+        }
+      ],
+      "BillingCity": "Edison",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106392",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "105 Roxy Avenue",
+      "BillingStateCode": "TX",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Ge0NYAS",
+          "TotalAmtWithTax": "-3.85",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "x",
+            "Id": "0c8VF0000000Cu1YAE",
+            "type": "Promotion",
+            "Name": "40313;subsequent-autoship-order"
+          },
+          "Id": "0ahVF0000003CUTYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+        }
+      ],
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "105 Roxy Avenue",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "vivekperf@yopmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Edison",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "782-123-4567",
+          "FulfilledToPostalCode": "08820",
+          "FulfilledToName": "Vivek Kanda",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002w1WYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-25T02:31:37.000Z",
+      "BillingPostalCode": "08820",
+      "Id": "1OsVF000000rCRF0A2",
+      "BillingState": "Texas"
+    }
+]

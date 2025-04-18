@@ -1,0 +1,18 @@
+{
+    "metadata": {
+      "nsShipmentId": "23205472",
+      "MessageType": "Shipment",
+      "Event": "Pending Creation",
+      "Topic": "order-exchange",
+      "Channel": "ORDER_SYNC",
+      "DateTime": "2025-04-08T14:02:43.972-04:00"
+    },
+    "message": [
+      {
+        "sfOrderId": "0a3VF0000002xX3YAI",
+        "nsFulfillmentId": "23057239",
+        "nsShipmentId": "23205472",
+        "trackingNumber": "880225896544"
+      }
+    ]
+  }

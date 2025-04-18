@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "jffd_Full",
+  "namespace": "",
+  "sfdcLoginUrl": "https://justfoodfordogs--full.sandbox.my.salesforce.com",
+  "sourceApiVersion": "63.0"
+}

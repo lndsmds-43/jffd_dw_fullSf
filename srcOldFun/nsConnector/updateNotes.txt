@@ -1,0 +1,40 @@
+Get Item Fulfillment by Id
+
+GET http://localhost:8081/itemFulfillment/23061853
+
+%dw 2.0
+output application/xml
+ns ns0  urn:messages_2020_2.platform.webservices.netsuite.com
+ns ns01 urn:relationships.lists.webservices.netsuite.com
+ns ns02 urn:core.platform.webservices.netsuite.com
+ns ns03 urn:common.platform.webservices.netsuite.com
+ns xsi http://www.w3.org/2001/XMLSchema-instance
+
+var payload = [
+	{
+		"internalId" : "24405",
+		"type" : "Customer",
+		"updateList" : {
+			"phone" : "1234597890",
+			"email" : "abc@gmail.com"
+		}
+	}
+]
+---
+ns0#updateList: {
+	(payload map(
+		(item, index) -> ns0#record @(internalId: item.internalId, "xmlns:ns01": ns01, xsi#"type" : "ns01:" ++ item.'type') : {
+		(item.updateList mapObject((value, key) -> {
+			(key) : value
+		}))
+	}))
+}
+
+
+{
+	"internalId" : "23061853",
+	"type" : "ItemFulfillment",
+	"updateList" : {
+		"custbody_jffd_ch_shipment_id" : "posted via mule"
+	}
+}

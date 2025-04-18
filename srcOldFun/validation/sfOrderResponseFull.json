@@ -1,0 +1,5786 @@
+[
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF00000087tx2AA",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "179.12"
+        }
+      ],
+      "Account": {
+        "Phone": "782-123-4567",
+        "Id": "001VF00000IsGGjYAN",
+        "type": "Account",
+        "PersonEmail": "vivekperf@yopmail.com",
+        "Name": "Vivek Kanda"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GFWeYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "167.99",
+          "NS_Item_ID__c": "6651",
+          "TotalTaxAmount": "11.13",
+          "TotalLineAmount": "167.99",
+          "Id": "10uVF000002GFWbYAO",
+          "type": "OrderItemSummary",
+          "Name": "Variety Pack - Sampler Box 18 oz (14 Pack)"
+        }
+      ],
+      "BillingCity": "Edison",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106392",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "105 Roxy Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002GFWeYAO",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003CMPYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "105 Roxy Avenue",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "vivekperf@yopmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Edison",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "782-123-4567",
+          "FulfilledToPostalCode": "08820",
+          "FulfilledToName": "Vivek Kanda",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002w1WYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-25T02:31:37.000Z",
+      "BillingPostalCode": "08820",
+      "Id": "1OsVF000000rCRF0A2",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008LqU2AU",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "423.93"
+        }
+      ],
+      "Account": {
+        "Phone": "777-777-7777",
+        "Id": "001VF00000IswO2YAJ",
+        "type": "Account",
+        "PersonEmail": "naveen1372kumar@outlook.com",
+        "Name": "Naveen Kumar"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "342.99",
+          "NS_Item_ID__c": "3540",
+          "TotalTaxAmount": "21.44",
+          "TotalLineAmount": "342.99",
+          "Id": "10uVF000002GbovYAC",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 72 oz (7 Pack) Large Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "56.0",
+          "NS_Item_ID__c": "8489",
+          "TotalTaxAmount": "3.5",
+          "TotalLineAmount": "56.0",
+          "Id": "10uVF000002GbouYAC",
+          "type": "OrderItemSummary",
+          "Name": "JustFresh Home-Cooked Beef (12 oz 7 Pack)"
+        }
+      ],
+      "BillingCity": "Chicago",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106393",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "400 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002GboxYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003CSsYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002GbotYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003CSrYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CO",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "400 North Michigan Avenue",
+          "FulfilledToState": "Colorado",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "naveen1372kumar@outlook.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chicago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60611",
+          "FulfilledToName": "Naveen Kumar",
+          "FulfilledToStateCode": "CO",
+          "Id": "0a3VF0000002w1VYAQ"
+        },
+        {
+          "FulfilledToStreet": "400 North Michigan Avenue",
+          "FulfilledToState": "Colorado",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "naveen1372kumar@outlook.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chicago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60611",
+          "FulfilledToName": "Naveen Kumar",
+          "FulfilledToStateCode": "CO",
+          "Id": "0a3VF0000002vztYAA"
+        }
+      ],
+      "CreatedDate": "2025-03-25T12:25:51.000Z",
+      "BillingPostalCode": "60611",
+      "Id": "1OsVF000000rVaM0AU",
+      "BillingState": "Colorado"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008NNe2AM",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "98.72"
+        }
+      ],
+      "Account": {
+        "Phone": "070-677-3782",
+        "Id": "001VF00000Is3tPYAR",
+        "type": "Account",
+        "PersonEmail": "yashasauto@perfaware.com",
+        "Name": "Yashas S K"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.2",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002Ge0PYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "4.39",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002Ge0NYAS",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "North Wales",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106394",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1234 Welsh Rd Apt 1",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Ge0NYAS",
+          "TotalAmtWithTax": "-3.85",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4146",
+            "Id": "0c8VF0000000Cu1YAE",
+            "type": "Promotion",
+            "Name": "40313;subsequent-autoship-order"
+          },
+          "Id": "0ahVF0000003CUTYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+        }
+      ],
+      "BillingStateCode": "PA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1234 Welsh Rd Apt 1",
+          "FulfilledToState": "Pennsylvania",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "yashasauto@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "North Wales",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "989-809-8098",
+          "FulfilledToPostalCode": "19454",
+          "FulfilledToName": "Yashas S K",
+          "FulfilledToStateCode": "PA",
+          "Id": "0a3VF0000002vyHYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-25T12:46:25.000Z",
+      "BillingPostalCode": "19454",
+      "Id": "1OsVF000000rXfO0AU",
+      "BillingState": "Pennsylvania"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008Ux02AE",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "154.74"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.65",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GqnzYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.65",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GqnyYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "25.99",
+          "NS_Item_ID__c": "1825",
+          "TotalTaxAmount": "2.13",
+          "TotalLineAmount": "25.99",
+          "Id": "10uVF000002GqnwYAC",
+          "type": "OrderItemSummary",
+          "Name": "DIY Nutrient Kit - Chicken"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "6.35",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002GqnvYAC",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Coppell",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106395",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "1721 East Belt Line Road",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1721 East Belt Line Road",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Coppell",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "457-457-4570",
+          "FulfilledToPostalCode": "75019",
+          "FulfilledToName": "Krishna Anabattula",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002vTdYAI"
+        },
+        {
+          "FulfilledToStreet": "1721 East Belt Line Road",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Coppell",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "457-457-4570",
+          "FulfilledToPostalCode": "75019",
+          "FulfilledToName": "Krishna Anabattula",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002vS1YAI"
+        }
+      ],
+      "CreatedDate": "2025-03-25T18:43:33.000Z",
+      "BillingPostalCode": "75019",
+      "Id": "1OsVF000000ri4Y0AQ",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008XLN2A2",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "49.76"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.65",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GvAsYAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "25.99",
+          "NS_Item_ID__c": "1825",
+          "TotalTaxAmount": "2.13",
+          "TotalLineAmount": "25.99",
+          "Id": "10uVF000002GvArYAK",
+          "type": "OrderItemSummary",
+          "Name": "DIY Nutrient Kit - Chicken"
+        }
+      ],
+      "BillingCity": "Coppell",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106396",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1721 East Belt Line Road",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1721 East Belt Line Road",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Coppell",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "457-457-4570",
+          "FulfilledToPostalCode": "75019",
+          "FulfilledToName": "Krishna Anabattula",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002vQPYAY"
+        }
+      ],
+      "CreatedDate": "2025-03-25T18:51:50.000Z",
+      "BillingPostalCode": "75019",
+      "Id": "1OsVF000000rlK90AI",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008XbV2AU",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "112.54"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GvsQYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "4.0",
+          "UnitPrice": "25.99",
+          "NS_Item_ID__c": "1825",
+          "TotalTaxAmount": "8.58",
+          "TotalLineAmount": "103.96",
+          "Id": "10uVF000002GvsPYAS",
+          "type": "OrderItemSummary",
+          "Name": "DIY Nutrient Kit - Chicken"
+        }
+      ],
+      "BillingCity": "Coppell",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106397",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1721 East Belt Line Road",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002GvsQYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003CflYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1721 East Belt Line Road",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Coppell",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "457-457-4570",
+          "FulfilledToPostalCode": "75019",
+          "FulfilledToName": "Krishna Anabattula",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002vVFYAY"
+        }
+      ],
+      "CreatedDate": "2025-03-25T19:03:12.000Z",
+      "BillingPostalCode": "75019",
+      "Id": "1OsVF000000rlgj0AA",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008Xhx2AE",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "104.98"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.65",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002Gw0UYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "6.35",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002Gw0TYAS",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Coppell",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106398",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1721 East Belt Line Road",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1721 East Belt Line Road",
+          "FulfilledToState": "Texas",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Coppell",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "457-457-4570",
+          "FulfilledToPostalCode": "75019",
+          "FulfilledToName": "Krishna Anabattula",
+          "FulfilledToStateCode": "TX",
+          "Id": "0a3VF0000002vWrYAI"
+        }
+      ],
+      "CreatedDate": "2025-03-25T19:07:36.000Z",
+      "BillingPostalCode": "75019",
+      "Id": "1OsVF000000rlon0AA",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008YSj2AM",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "62.94"
+        }
+      ],
+      "Account": {
+        "Phone": "undefined",
+        "Id": "001VF00000ItivkYAB",
+        "type": "Account",
+        "PersonEmail": "imageissue.b47c2b@burnermail.io",
+        "Name": "bellaimage testissue"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "2.94",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002GwuxYAC",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.52",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GwuwYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Albuquerque",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106399",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "12308 Elk Drive Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002GwuxYAC",
+          "TotalAmtWithTax": "-38.5",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401050001 - Product Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4244",
+            "Id": "0c8VF0000000CvdYAE",
+            "type": "Promotion",
+            "Name": "FirstAutoshipOrderPromotion"
+          },
+          "Id": "0ahVF0000003ChNYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401050001 - Product Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "12308 Elk Drive Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "imageissue.b47c2b@burnermail.io",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Albuquerque",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-8293",
+          "FulfilledToPostalCode": "87123",
+          "FulfilledToName": "bellaimage testissue",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002vYTYAY"
+        }
+      ],
+      "CreatedDate": "2025-03-25T19:32:37.000Z",
+      "BillingPostalCode": "87123",
+      "Id": "1OsVF000000rmrJ0AQ",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008Yqv2AE",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "177.53"
+        }
+      ],
+      "Account": {
+        "Phone": "undefined",
+        "Id": "001VF00000ItivkYAB",
+        "type": "Account",
+        "PersonEmail": "imageissue.b47c2b@burnermail.io",
+        "Name": "bellaimage testissue"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.52",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GxO2YAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.52",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GxO1YAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "47.99",
+          "NS_Item_ID__c": "1827",
+          "TotalTaxAmount": "3.66",
+          "TotalLineAmount": "47.99",
+          "Id": "10uVF000002GxNzYAK",
+          "type": "OrderItemSummary",
+          "Name": "Pantry Fresh - Beef & Russet Potato 12.5 oz Case (6 Pack)"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "5.87",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002GxNxYAK",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Albuquerque",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106400",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "12308 Elk Drive Southeast",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "12308 Elk Drive Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "imageissue.b47c2b@burnermail.io",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Albuquerque",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-8293",
+          "FulfilledToPostalCode": "87123",
+          "FulfilledToName": "bellaimage testissue",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002vbhYAA"
+        },
+        {
+          "FulfilledToStreet": "12308 Elk Drive Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "imageissue.b47c2b@burnermail.io",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Albuquerque",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "505-123-8293",
+          "FulfilledToPostalCode": "87123",
+          "FulfilledToName": "bellaimage testissue",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002va5YAA"
+        }
+      ],
+      "CreatedDate": "2025-03-25T19:43:45.000Z",
+      "BillingPostalCode": "87123",
+      "Id": "1OsVF000000rnLx0AI",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008ZqD2AU",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "102.94"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "5.96",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002GybmYAC",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002GyblYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Irvine",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106401",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "15333 Culver Drive",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "15333 Culver Drive",
+          "FulfilledToState": "California",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Irvine",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh7YAE",
+            "type": "Location",
+            "Name": "Smart WH - Reno NV"
+          },
+          "FulfilledToPhone": "457-457-4570",
+          "FulfilledToPostalCode": "92604",
+          "FulfilledToName": "Krishna Ship From Store",
+          "FulfilledToStateCode": "CA",
+          "Id": "0a3VF0000002vdJYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-25T20:19:23.000Z",
+      "BillingPostalCode": "92604",
+      "Id": "1OsVF000000rogD0AQ",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008k2T2AQ",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.67",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HHzOYAW",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "6.45",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002HHzNYAW",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106402",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002vgXYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-26T03:02:04.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000s3Ab0AI",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.67",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002Hb5HYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "6.45",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002Hb5FYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1512198",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106403",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002vobYAA"
+        }
+      ],
+      "CreatedDate": "2025-03-26T10:18:53.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000sIuP0AU",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Fulfilled by Store",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000008yjl2AA",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "507.98"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "4.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "29.26",
+          "TotalLineAmount": "307.96",
+          "Id": "10uVF000002HfaLYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HfaJYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "6.0",
+          "UnitPrice": "25.99",
+          "NS_Item_ID__c": "1886",
+          "TotalTaxAmount": "14.82",
+          "TotalLineAmount": "155.94",
+          "Id": "10uVF000002HfaIYAS",
+          "type": "OrderItemSummary",
+          "Name": "DIY Nutrient Kit - Beef"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HfaHYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Los Angeles",
+      "batchId__c": "1512857",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106405",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "5000 Van Nuys Boulevard",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002HfaHYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003Cr4YAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002HfaJYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003Cr3YAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "5000 Van Nuys Boulevard",
+          "FulfilledToState": "California",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Los Angeles",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHkOYAU",
+            "type": "Location",
+            "Name": "Retail - Sherman Oaks - 00003"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "91403",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "CA",
+          "Id": "0a3VF0000002vrpYAA"
+        }
+      ],
+      "CreatedDate": "2025-03-26T12:19:28.000Z",
+      "BillingPostalCode": "91403",
+      "Id": "1OsVF000000sMtB0AU",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF00000090nB2AQ",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "6.45",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002HjfXYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.67",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HjfVYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1512857",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106408",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002vtRYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-26T13:41:21.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000sPpR0AU",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF00000091Za2AI",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "334.68"
+        }
+      ],
+      "Account": {
+        "Phone": "777-777-7777",
+        "Id": "001VF00000IswO2YAJ",
+        "type": "Account",
+        "PersonEmail": "naveen1372kumar@outlook.com",
+        "Name": "Naveen Kumar"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HkwaYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "314.99",
+          "NS_Item_ID__c": "3539",
+          "TotalTaxAmount": "19.69",
+          "TotalLineAmount": "314.99",
+          "Id": "10uVF000002HkwZYAS",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 18 oz (21 Pack) Medium Box"
+        }
+      ],
+      "BillingCity": "Chicago",
+      "batchId__c": "1512857",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106409",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "400 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002HkwaYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003CxVYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CO",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "400 North Michigan Avenue",
+          "FulfilledToState": "Colorado",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "naveen1372kumar@outlook.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chicago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60611",
+          "FulfilledToName": "Naveen Kumar",
+          "FulfilledToStateCode": "CO",
+          "Id": "0a3VF0000002vv3YAA"
+        }
+      ],
+      "CreatedDate": "2025-03-26T15:57:31.000Z",
+      "BillingPostalCode": "60611",
+      "Id": "1OsVF000000sR020AE",
+      "BillingState": "Colorado"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "777-777-7777",
+        "Id": "001VF00000IswO2YAJ",
+        "type": "Account",
+        "PersonEmail": "naveen1372kumar@outlook.com",
+        "Name": "Naveen Kumar"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "314.99",
+          "NS_Item_ID__c": "3539",
+          "TotalTaxAmount": "19.69",
+          "TotalLineAmount": "314.99",
+          "Id": "10uVF000002HqtvYAC",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 18 oz (21 Pack) Medium Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HqttYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Chicago",
+      "batchId__c": "1512857",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106410",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "400 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002HqttYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003Cz7YAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CO",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "400 North Michigan Avenue",
+          "FulfilledToState": "Colorado",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "naveen1372kumar@outlook.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chicago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60611",
+          "FulfilledToName": "Naveen Kumar",
+          "FulfilledToStateCode": "CO",
+          "Id": "0a3VF0000002vwfYAA"
+        }
+      ],
+      "CreatedDate": "2025-03-26T16:04:39.000Z",
+      "BillingPostalCode": "60611",
+      "Id": "1OsVF000000sVV30AM",
+      "BillingState": "Colorado"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF00000096xR2AQ",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "111.55"
+        }
+      ],
+      "Account": {
+        "Phone": "777-777-7777",
+        "Id": "001VF00000IswO2YAJ",
+        "type": "Account",
+        "PersonEmail": "naveen1372kumar@outlook.com",
+        "Name": "Naveen Kumar"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "104.99",
+          "NS_Item_ID__c": "3538",
+          "TotalTaxAmount": "6.56",
+          "TotalLineAmount": "104.99",
+          "Id": "10uVF000002HvAQYA0",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002HvAPYA0",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Chicago",
+      "batchId__c": "1512857",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106411",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "400 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002HvAPYA0",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003D0jYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CO",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "400 North Michigan Avenue",
+          "FulfilledToState": "Colorado",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "naveen1372kumar@outlook.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chicago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60611",
+          "FulfilledToName": "Naveen Kumar",
+          "FulfilledToStateCode": "CO",
+          "Id": "0a3VF0000002w37YAA"
+        }
+      ],
+      "CreatedDate": "2025-03-26T17:21:49.000Z",
+      "BillingPostalCode": "60611",
+      "Id": "1OsVF000000sYW90AM",
+      "BillingState": "Colorado"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": null,
+        "Id": "001VF00000IwFb6YAF",
+        "type": "Account",
+        "PersonEmail": "bellatest@test.com",
+        "Name": "BillFirst BillLast"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "56.0",
+          "NS_Item_ID__c": "8489",
+          "TotalTaxAmount": "4.27",
+          "TotalLineAmount": "56.0",
+          "Id": "10uVF000002I4VSYA0",
+          "type": "OrderItemSummary",
+          "Name": "JustFresh Home-Cooked Beef (12 oz 7 Pack)"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002I4VRYA0",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        }
+      ],
+      "BillingCity": "Albuquerque",
+      "batchId__c": "-1",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106412",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "6100 Trujillo Rd SW",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002I4VRYA0",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003D3xYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "6100 Trujillo Rd SW",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellatest@test.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Albuquerque",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": null,
+          "FulfilledToPostalCode": "87121",
+          "FulfilledToName": "BillFirst BillLast",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002w6LYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-26T20:56:44.000Z",
+      "BillingPostalCode": "87121",
+      "Id": "1OsVF000000sgrt0AA",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF0000009VML2A2",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "6.45",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002IZW2YAO",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.67",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002IZW1YAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1513315",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106415",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002wO5YAI"
+        }
+      ],
+      "CreatedDate": "2025-03-27T09:12:46.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000t6810AA",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "6.45",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002Ia5XYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.67",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002Ia5WYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1513315",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106417",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002wRJYAY"
+        }
+      ],
+      "CreatedDate": "2025-03-27T09:27:45.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000t6hV0AQ",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Fulfilled by Store",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000AIDN2A4",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "104.29"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002JveBYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "7.31",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002JveAYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Los Angeles",
+      "batchId__c": "1514014",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106418",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "5000 Van Nuys Boulevard Los Angeles",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "5000 Van Nuys Boulevard Los Angeles",
+          "FulfilledToState": "California",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "krishnapfw@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Los Angeles",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHkOYAU",
+            "type": "Location",
+            "Name": "Retail - Sherman Oaks - 00003"
+          },
+          "FulfilledToPhone": "999-999-9999",
+          "FulfilledToPostalCode": "91403",
+          "FulfilledToName": "Krishna Anabattula",
+          "FulfilledToStateCode": "CA",
+          "Id": "0a3VF0000002wr7YAA"
+        }
+      ],
+      "CreatedDate": "2025-03-28T16:35:33.000Z",
+      "BillingPostalCode": "91403",
+      "Id": "1OsVF000000uCmT0AU",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000AIJp2AO",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "152.73"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002JvmHYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002JvmDYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Los Angeles",
+      "batchId__c": "1514014",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106420",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "5000 Van Nuys Boulevard Los Angeles",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002JvmHYAS",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EGAYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002JvmDYAS",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EG9YAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002JvmDYAS",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EEYYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002JvmHYAS",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EEXYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-03-28T16:39:30.000Z",
+      "BillingPostalCode": "91403",
+      "Id": "1OsVF000000uCw90AE",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000AILR2A4",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "48.44"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002JvnqYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        }
+      ],
+      "BillingCity": "Los Angeles",
+      "batchId__c": "1514014",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106419",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "5000 Van Nuys Boulevard Los Angeles",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-03-28T16:39:33.000Z",
+      "BillingPostalCode": "91403",
+      "Id": "1OsVF000000uCxl0AE",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Bz1l2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "204.93"
+        }
+      ],
+      "Account": {
+        "Phone": "505-999-1123",
+        "Id": "001VF00000J7RoXYAV",
+        "type": "Account",
+        "PersonEmail": "bellanoautoshipyet@test.com",
+        "Name": "bella noautoshipyet"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002MfeVYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "342.99",
+          "NS_Item_ID__c": "3540",
+          "TotalTaxAmount": "11.94",
+          "TotalLineAmount": "342.99",
+          "Id": "10uVF000002MfeUYAS",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 72 oz (7 Pack) Large Box"
+        }
+      ],
+      "BillingCity": "Albuquerque",
+      "batchId__c": "1514630",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106422",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "869 Tramway Lane Court Northeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002MfeUYAS",
+          "TotalAmtWithTax": "-150.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401060003 - Order Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4244",
+            "Id": "0c8VF0000000CvdYAE",
+            "type": "Promotion",
+            "Name": "FirstAutoshipOrderPromotion"
+          },
+          "Id": "0ahVF0000003DQYYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401060003 - Order Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002MfeVYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DQXYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "869 Tramway Lane Court Northeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellanoautoshipyet@test.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Albuquerque",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "282-812-3112",
+          "FulfilledToPostalCode": "87122",
+          "FulfilledToName": "bella noautoshipyet",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002wuLYAQ"
+        }
+      ],
+      "CreatedDate": "2025-03-31T14:43:48.000Z",
+      "BillingPostalCode": "87122",
+      "Id": "1OsVF000000wTJN0A2",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "251.99",
+          "NS_Item_ID__c": "3428",
+          "TotalTaxAmount": "18.74",
+          "TotalLineAmount": "251.99",
+          "Id": "10uVF000002MrhHYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 72 oz (7 Pack) Large Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002MrhFYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "-1",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106424",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002MrhFYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DS9YAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002xC5YAI"
+        }
+      ],
+      "CreatedDate": "2025-03-31T19:40:00.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000weEn0AI",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "251.99",
+          "NS_Item_ID__c": "3428",
+          "TotalTaxAmount": "18.74",
+          "TotalLineAmount": "251.99",
+          "Id": "10uVF000002MrpLYAS",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 72 oz (7 Pack) Large Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002MrpJYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1514630",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106423",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002MrpJYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DTlYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002xDhYAI"
+        }
+      ],
+      "CreatedDate": "2025-03-31T19:43:24.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000weOT0AY",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CHJd2AO",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "317.19"
+        }
+      ],
+      "Account": {
+        "Phone": "777-777-7777",
+        "Id": "001VF00000IswO2YAJ",
+        "type": "Account",
+        "PersonEmail": "naveen1372kumar@outlook.com",
+        "Name": "Naveen Kumar"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002NBPrYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "314.99",
+          "NS_Item_ID__c": "3539",
+          "TotalTaxAmount": "17.95",
+          "TotalLineAmount": "314.99",
+          "Id": "10uVF000002NBPqYAO",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 18 oz (21 Pack) Medium Box"
+        }
+      ],
+      "BillingCity": "Chikago",
+      "batchId__c": "1514833",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106425",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "400 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002NBPrYAO",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DVOYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002NBPqYAO",
+          "TotalAmtWithTax": "-15.75",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401060002 - Subsequent Autoship Discount Promotion"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4146",
+            "Id": "0c8VF0000000Cu1YAE",
+            "type": "Promotion",
+            "Name": "40313;subsequent-autoship-order"
+          },
+          "Id": "0ahVF0000003DVNYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401060002 - Subsequent Autoship Discount Promotion"
+        }
+      ],
+      "BillingStateCode": "ID",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "400 North Michigan Avenue",
+          "FulfilledToState": "Idaho",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "pdpcustomer@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chikago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60610",
+          "FulfilledToName": "Naveen Kumar",
+          "FulfilledToStateCode": "ID",
+          "Id": "0a3VF0000002xLlYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-01T02:51:32.000Z",
+      "BillingPostalCode": "60610",
+      "Id": "1OsVF000000wsmP0AQ",
+      "BillingState": "Idaho"
+    },
+    {
+      "Status": "Waiting for Inventory",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CO9p2AG",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "134.18"
+        }
+      ],
+      "Account": {
+        "Phone": "undefined",
+        "Id": "001VF00000J8txUYAR",
+        "type": "Account",
+        "PersonEmail": "testpdpcustomer@gmail.com",
+        "Name": "Test Customer"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002NOmtYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Crawfordsville",
+      "batchId__c": "1514833",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106426",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1512 W Front Cir Crawfordsville, Arkansas(AR), 723",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002NOmrYAG",
+          "TotalAmtWithTax": "-126.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401030003 - Product Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4244",
+            "Id": "0c8VF0000000CvdYAE",
+            "type": "Promotion",
+            "Name": "FirstAutoshipOrderPromotion"
+          },
+          "Id": "0ahVF0000003DX0YAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401030003 - Product Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002NOmtYAG",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DWzYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "AR",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-01T07:31:47.000Z",
+      "BillingPostalCode": "72345",
+      "Id": "1OsVF000000x1w90AA",
+      "BillingState": "Arkansas"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cfgw2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "228.97"
+        }
+      ],
+      "Account": {
+        "Phone": "937-555-5444",
+        "Id": "001VF00000JALrVYAX",
+        "type": "Account",
+        "PersonEmail": "test45@nothing.com",
+        "Name": "ready mruyi"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002Nv1IYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "342.99",
+          "NS_Item_ID__c": "3540",
+          "TotalTaxAmount": "15.98",
+          "TotalLineAmount": "342.99",
+          "Id": "10uVF000002Nv1HYAS",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 72 oz (7 Pack) Large Box"
+        }
+      ],
+      "BillingCity": "Brookville",
+      "batchId__c": "1514833",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106427",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Nv1IYAS",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DbqYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Nv1HYAS",
+          "TotalAmtWithTax": "-130.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401060003 - Order Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4244",
+            "Id": "0c8VF0000000CvdYAE",
+            "type": "Promotion",
+            "Name": "FirstAutoshipOrderPromotion"
+          },
+          "Id": "0ahVF0000003DbpYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401060003 - Order Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "OH",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Ohio",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "test45@nothing.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Brookville",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "937-555-5454",
+          "FulfilledToPostalCode": "45308",
+          "FulfilledToName": "ready mruyi",
+          "FulfilledToStateCode": "OH",
+          "Id": "0a3VF0000002xTpYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-01T18:29:48.000Z",
+      "BillingPostalCode": "45308",
+      "Id": "1OsVF000000xQg20AE",
+      "BillingState": "Ohio"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "505-123-1232",
+        "Id": "001VF00000JA4QzYAL",
+        "type": "Account",
+        "PersonEmail": "sf1067@test.com",
+        "Name": "SF1067 SF1067"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "251.99",
+          "NS_Item_ID__c": "3527",
+          "TotalTaxAmount": "9.6",
+          "TotalLineAmount": "251.99",
+          "Id": "10uVF000002NvywYAC",
+          "type": "OrderItemSummary",
+          "Name": "Beef & Russet Potato 18 oz (21 Pack) Medium Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002NvyvYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Albuquerque",
+      "batchId__c": "1514833",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106428",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1931 2nd Street Southwest",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002NvyvYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DdSYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002NvywYAC",
+          "TotalAmtWithTax": "-126.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "FBS100401010002 - Product Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4244",
+            "Id": "0c8VF0000000CvdYAE",
+            "type": "Promotion",
+            "Name": "FirstAutoshipOrderPromotion"
+          },
+          "Id": "0ahVF0000003DdRYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "FBS100401010002 - Product Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1931 2nd Street Southwest",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "sf1067@test.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Albuquerque",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "404-231-2312",
+          "FulfilledToPostalCode": "87102",
+          "FulfilledToName": "SF1067 SF1067",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002xVRYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-01T18:43:33.000Z",
+      "BillingPostalCode": "87102",
+      "Id": "1OsVF000000xRNZ0A2",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000ClRN2A0",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "52.65"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "49.0",
+          "NS_Item_ID__c": "8785",
+          "TotalTaxAmount": "3.65",
+          "TotalLineAmount": "49.0",
+          "Id": "10uVF000002OAUwYAO",
+          "type": "OrderItemSummary",
+          "Name": "JustFresh Home-Cooked Turkey (12 oz 7 Pack)"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002OAUvYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1515221",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106429",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002OAUvYAO",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DiHYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002xX3YAI"
+        }
+      ],
+      "CreatedDate": "2025-04-01T23:03:46.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000xYX70AM",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": null,
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002OkbeYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "56.0",
+          "NS_Item_ID__c": "8720",
+          "TotalTaxAmount": "4.34",
+          "TotalLineAmount": "56.0",
+          "Id": "10uVF000002OkbdYAC",
+          "type": "OrderItemSummary",
+          "Name": "JustFresh Home-Cooked Beef (12 oz 7 Pack)"
+        }
+      ],
+      "BillingCity": "San Diego",
+      "batchId__c": "1515221",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106430",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "13046 Signature Point Unit 1",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002OkbeYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003Dn7YAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "13046 Signature Point Unit 1",
+          "FulfilledToState": "California",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "San Diego",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "760-779-3149",
+          "FulfilledToPostalCode": "92130",
+          "FulfilledToName": "Bella QA",
+          "FulfilledToStateCode": "CA",
+          "Id": "0a3VF0000002xwrYAA"
+        }
+      ],
+      "CreatedDate": "2025-04-02T17:55:33.000Z",
+      "BillingPostalCode": "92130",
+      "Id": "1OsVF000000xpxl0AA",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cnhh2AC",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "104.98"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002OoH5YAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Coppell",
+      "batchId__c": "1515221",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106431",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "1721 East Belt Line Road",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002OoH5YAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003DojYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-02T18:39:44.000Z",
+      "BillingPostalCode": "75019",
+      "Id": "1OsVF000000xqaT0AQ",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CnjJ2AS",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "104.98"
+        }
+      ],
+      "Account": {
+        "Phone": "457-457-4570",
+        "Id": "001VF00000ItZ7hYAF",
+        "type": "Account",
+        "PersonEmail": "krishnapfw@gmail.com",
+        "Name": "Krishna Anabattula"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002OrelYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Coppell",
+      "batchId__c": "1515221",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106432",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "1721 East Belt Line Road",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002OrelYAC",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003DqLYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "TX",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-02T20:43:46.000Z",
+      "BillingPostalCode": "75019",
+      "Id": "1OsVF000000xsNl0AI",
+      "BillingState": "Texas"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cnkv2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002PAfoYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106433",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PAfoYAG",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003DrxYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-03T05:56:05.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000y0I50AI",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CnmX2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002PC6VYAW",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106434",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PC6VYAW",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003DtZYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-03T06:25:07.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000y0l70AA",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cno92AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "65.26"
+        }
+      ],
+      "Account": {
+        "Phone": "undefined",
+        "Id": "001VF00000JEUzOYAX",
+        "type": "Account",
+        "PersonEmail": "splitshipmentcustomer001@gmail.com",
+        "Name": "Test Customer"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PCWMYA4",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "31.99",
+          "NS_Item_ID__c": "3861",
+          "TotalTaxAmount": "1.34",
+          "TotalLineAmount": "31.99",
+          "Id": "10uVF000002PCWJYA4",
+          "type": "OrderItemSummary",
+          "Name": "Healthy Digestion Treats Bundle"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "29.99",
+          "NS_Item_ID__c": "6659",
+          "TotalTaxAmount": "1.26",
+          "TotalLineAmount": "29.99",
+          "Id": "10uVF000002PCWIYA4",
+          "type": "OrderItemSummary",
+          "Name": "Hip + Joint Care (45 Chews)"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "25.99",
+          "NS_Item_ID__c": "1821",
+          "TotalTaxAmount": "1.09",
+          "TotalLineAmount": "25.99",
+          "Id": "10uVF000002PCWHYA4",
+          "type": "OrderItemSummary",
+          "Name": "DIY Nutrient Kit - Fish"
+        }
+      ],
+      "BillingCity": "Saginaw",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106435",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "404 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PCWMYA4",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DvEYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002PCWIYA4",
+          "TotalAmtWithTax": "-9.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "500201821300 - 30% Off on Item"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4053",
+            "Id": "0c8VF0000000D25YAE",
+            "type": "Promotion",
+            "Name": "40313;30-off-item-level-promotion"
+          },
+          "Id": "0ahVF0000003DvDYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "500201821300 - 30% Off on Item"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002PCWJYA4",
+          "TotalAmtWithTax": "-9.6",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "200206580800 - 30% Off on Item"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4053",
+            "Id": "0c8VF0000000D25YAE",
+            "type": "Promotion",
+            "Name": "40313;30-off-item-level-promotion"
+          },
+          "Id": "0ahVF0000003DvCYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "200206580800 - 30% Off on Item"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002PCWHYA4",
+          "TotalAmtWithTax": "-7.8",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "600301033200 - 30% Off on Item"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "4053",
+            "Id": "0c8VF0000000D25YAE",
+            "type": "Promotion",
+            "Name": "40313;30-off-item-level-promotion"
+          },
+          "Id": "0ahVF0000003DvBYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "600301033200 - 30% Off on Item"
+        }
+      ],
+      "BillingStateCode": "MI",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "404 North Michigan Avenue",
+          "FulfilledToState": "Michigan",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "splitshipmentcustomer001@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Saginaw",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "48602",
+          "FulfilledToName": "Test Customer",
+          "FulfilledToStateCode": "MI",
+          "Id": "0a3VF0000002y05YAA"
+        }
+      ],
+      "CreatedDate": "2025-04-03T06:35:42.000Z",
+      "BillingPostalCode": "48602",
+      "Id": "1OsVF000000y0y10AA",
+      "BillingState": "Michigan"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cnpl2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "109.02"
+        }
+      ],
+      "Account": {
+        "Phone": "undefined",
+        "Id": "001VF00000JEUzOYAX",
+        "type": "Account",
+        "PersonEmail": "splitshipmentcustomer001@gmail.com",
+        "Name": "Test Customer"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "83.99",
+          "NS_Item_ID__c": "3526",
+          "TotalTaxAmount": "5.04",
+          "TotalLineAmount": "83.99",
+          "Id": "10uVF000002PDKJYA4",
+          "type": "OrderItemSummary",
+          "Name": "Beef & Russet Potato 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PDKIYA4",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Saginaw",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106436",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "404 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "MI",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "404 North Michigan Avenue",
+          "FulfilledToState": "Michigan",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "splitshipmentcustomer001@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Saginaw",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "48602",
+          "FulfilledToName": "Test Customer",
+          "FulfilledToStateCode": "MI",
+          "Id": "0a3VF0000002y1hYAA"
+        }
+      ],
+      "CreatedDate": "2025-04-03T06:59:25.000Z",
+      "BillingPostalCode": "48602",
+      "Id": "1OsVF000000y1HN0AY",
+      "BillingState": "Michigan"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CnrN2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "178.07"
+        }
+      ],
+      "Account": {
+        "Phone": "undefined",
+        "Id": "001VF00000JEUzOYAX",
+        "type": "Account",
+        "PersonEmail": "splitshipmentcustomer001@gmail.com",
+        "Name": "Test Customer"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PDTzYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "167.99",
+          "NS_Item_ID__c": "7471",
+          "TotalTaxAmount": "10.08",
+          "TotalLineAmount": "167.99",
+          "Id": "10uVF000002PDTxYAO",
+          "type": "OrderItemSummary",
+          "Name": "Beef & Russet Potato 18 oz (14 Pack)"
+        }
+      ],
+      "BillingCity": "Saginaw",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106437",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "404 North Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PDTzYAO",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DwnYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "MI",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "404 North Michigan Avenue",
+          "FulfilledToState": "Michigan",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "splitshipmentcustomer001@gmail.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Saginaw",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh9YAE",
+            "type": "Location",
+            "Name": "Smart WH - Northampton PA"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "48602",
+          "FulfilledToName": "Test Customer",
+          "FulfilledToStateCode": "MI",
+          "Id": "0a3VF0000002y3JYAQ"
+        }
+      ],
+      "CreatedDate": "2025-04-03T07:03:35.000Z",
+      "BillingPostalCode": "48602",
+      "Id": "1OsVF000000y1MD0AY",
+      "BillingState": "Michigan"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cnsz2AC",
+          "Method": "Visa - 1111",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "746.6"
+        }
+      ],
+      "Account": {
+        "Phone": "949-431-6145",
+        "Id": "001VF00000JEeKaYAL",
+        "type": "Account",
+        "PersonEmail": "santhosh_korrayi@perfaware.com",
+        "Name": "Sample Test"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "4.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "23.86",
+          "TotalLineAmount": "307.96",
+          "Id": "10uVF000002PGziYAG",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PGzhYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "San Diego",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106438",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "3495 Sports Arena Boulevard San Diego, California",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PGzhYAG",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003DyPYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "3495 Sports Arena Boulevard San Diego, California",
+          "FulfilledToState": "California",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "santhosh_korrayi@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "San Diego",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh7YAE",
+            "type": "Location",
+            "Name": "Smart WH - Reno NV"
+          },
+          "FulfilledToPhone": "547-465-6456",
+          "FulfilledToPostalCode": "92110",
+          "FulfilledToName": "Sample Test",
+          "FulfilledToStateCode": "CA",
+          "Id": "0a3VF0000002yL3YAI"
+        }
+      ],
+      "CreatedDate": "2025-04-03T08:35:50.000Z",
+      "BillingPostalCode": "92110",
+      "Id": "1OsVF000000y2gT0AQ",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cnub2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.67",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PNrWYAW",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "6.45",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002PNrVYAW",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106440",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002yPtYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-03T11:47:28.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000y5cj0AA",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CnwD2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "500.63"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PNt9YAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3532",
+          "TotalTaxAmount": "12.89",
+          "TotalLineAmount": "153.98",
+          "Id": "10uVF000002PNt8YAG",
+          "type": "OrderItemSummary",
+          "Name": "Fish & Sweet Potato 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106441",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PNt9YAG",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003E01YAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002yOIYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-03T11:47:32.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000y5eL0AQ",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cnxp2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "500.63"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "12.89",
+          "TotalLineAmount": "153.98",
+          "Id": "10uVF000002PNulYAG",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PNujYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106439",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PNujYAG",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003E1dYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002yOHYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-03T11:47:35.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000y5fx0AA",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CnzR2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "500.63"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "12.89",
+          "TotalLineAmount": "153.98",
+          "Id": "10uVF000002PNwNYAW",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PNwMYAW",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106442",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PNwMYAW",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003E3FYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002yMfYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-03T11:47:47.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000y5hZ0AQ",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Co132AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "111.55"
+        }
+      ],
+      "Account": {
+        "Phone": "777-777-7777",
+        "Id": "001VF00000IswO2YAJ",
+        "type": "Account",
+        "PersonEmail": "naveen1372kumar@outlook.com",
+        "Name": "Naveen Kumar"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "104.99",
+          "NS_Item_ID__c": "3538",
+          "TotalTaxAmount": "6.56",
+          "TotalLineAmount": "104.99",
+          "Id": "10uVF000002POMBYA4",
+          "type": "OrderItemSummary",
+          "Name": "Venison & Squash 18 oz (7 Pack) Small Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002POMAYA4",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Chicago",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106443",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "400 Michigan Avenue",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002POMAYA4",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003E4rYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "IL",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "400 Michigan Avenue",
+          "FulfilledToState": "Illinois",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "naveen1372kumar@outlook.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Chicago",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "777-777-7777",
+          "FulfilledToPostalCode": "60611",
+          "FulfilledToName": "Test Customer",
+          "FulfilledToStateCode": "IL",
+          "Id": "0a3VF0000002yRVYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-03T12:07:33.000Z",
+      "BillingPostalCode": "60611",
+      "Id": "1OsVF000000y60v0AA",
+      "BillingState": "Illinois"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoM12AK",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "464.09"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "89.99",
+          "NS_Item_ID__c": "1829",
+          "TotalTaxAmount": "13.38",
+          "TotalLineAmount": "179.98",
+          "Id": "10uVF000002PZPiYAO",
+          "type": "OrderItemSummary",
+          "Name": "Pantry Fresh - Chicken & White Rice 12.5 oz Case (12 Pack)"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "251.99",
+          "NS_Item_ID__c": "3428",
+          "TotalTaxAmount": "18.74",
+          "TotalLineAmount": "251.99",
+          "Id": "10uVF000002PZPgYAO",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 72 oz (7 Pack) Large Box"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PZPfYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PZPeYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106445",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PZPfYAO",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EBKYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002PZPeYAO",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EBJYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002ymTYAQ"
+        },
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002ykrYAA"
+        }
+      ],
+      "CreatedDate": "2025-04-03T19:07:29.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yD410AE",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoNd2AK",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "104.18"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.48",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PYweYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "5.72",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002PYwcYAG",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106447",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002yphYAA"
+        }
+      ],
+      "CreatedDate": "2025-04-03T19:27:42.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yDNN0A2",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoPF2A0",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "248.89"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PZmFYAW",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "230.99",
+          "NS_Item_ID__c": "3427",
+          "TotalTaxAmount": "17.9",
+          "TotalLineAmount": "230.99",
+          "Id": "10uVF000002PZmDYAW",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (21 Pack) Medium Box"
+        }
+      ],
+      "BillingCity": "San Diego",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106446",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "13046 Signature Point Unit 1",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PZmFYAW",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003ECvYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "CA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "13046 Signature Point Unit 1",
+          "FulfilledToState": "California",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "San Diego",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh7YAE",
+            "type": "Location",
+            "Name": "Smart WH - Reno NV"
+          },
+          "FulfilledToPhone": "760-779-3149",
+          "FulfilledToPostalCode": "92130",
+          "FulfilledToName": "Bella QA",
+          "FulfilledToStateCode": "CA",
+          "Id": "0a3VF0000002yo5YAA"
+        }
+      ],
+      "CreatedDate": "2025-04-03T19:27:46.000Z",
+      "BillingPostalCode": "92130",
+      "Id": "1OsVF000000yDOz0AM",
+      "BillingState": "California"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoQr2AK",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "69.8"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "44.99",
+          "NS_Item_ID__c": "1830",
+          "TotalTaxAmount": "3.34",
+          "TotalLineAmount": "44.99",
+          "Id": "10uVF000002PZz8YAG",
+          "type": "OrderItemSummary",
+          "Name": "Pantry Fresh - Chicken & White Rice 12.5 oz Case (6 Pack)"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.48",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PZz7YAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1515897",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106448",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": null,
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002yrJYAQ"
+        }
+      ],
+      "CreatedDate": "2025-04-03T19:39:34.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yDbt0AE",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoU52AK",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Puh1YAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106449",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Puh1YAC",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EJNYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-04T05:51:28.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yMYj0AM",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoVh2AK",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "333.75"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Pux7YAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106450",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Pux7YAC",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EMbYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Pux7YAC",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EHlYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-04T05:57:26.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yMgn0AE",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CoaX2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "250.32"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002PzYbYAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106451",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PzYbYAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003ERRYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002PzYbYAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EODYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002yxlYAA"
+        }
+      ],
+      "CreatedDate": "2025-04-04T07:43:31.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yOIn0AM",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Coc92AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "641.45"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "44.99",
+          "NS_Item_ID__c": "1830",
+          "TotalTaxAmount": "7.53",
+          "TotalLineAmount": "89.98",
+          "Id": "10uVF000002PzglYAC",
+          "type": "OrderItemSummary",
+          "Name": "Pantry Fresh - Chicken & White Rice 12.5 oz Case (6 Pack)"
+        },
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "25.99",
+          "NS_Item_ID__c": "1886",
+          "TotalTaxAmount": "4.35",
+          "TotalLineAmount": "51.98",
+          "Id": "10uVF000002PzgiYAC",
+          "type": "OrderItemSummary",
+          "Name": "DIY Nutrient Kit - Beef"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PzghYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002PzggYAC",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "12.89",
+          "TotalLineAmount": "153.98",
+          "Id": "10uVF000002PzgfYAC",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106452",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002PzggYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EPqYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002PzghYAC",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EPpYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002zaTYAQ"
+        },
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002zYrYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-04T07:45:35.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yONd0AM",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Codl2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "641.45"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Q0PrYAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Q0PpYAK",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106453",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Q0PrYAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EWHYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Q0PpYAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EUfYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Q0PpYAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003ET4YAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Q0PrYAK",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003ET3YAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-04T08:03:39.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yOdl0AE",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cogz2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "333.75"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Q76LYAS",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106454",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Q76LYAS",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EZVYA2",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Q76LYAS",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EXtYAM",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-04T10:33:50.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yRF30AM",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Coib2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "724.9"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Q8FQYA0",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002Q8FPYA0",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106455",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002Q8FQYA0",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EeLYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Q8FQYA0",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EckYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002Q8FPYA0",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EcjYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002zLxYAI"
+        },
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHh8YAE",
+            "type": "Location",
+            "Name": "Smart WH - Orlando FL"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002zKLYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-04T11:28:28.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yS4f0AE",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CokD2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "105.1"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002QCKZYA4",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106456",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002QCKZYA4",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EfxYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": null,
+      "CreatedDate": "2025-04-04T13:47:48.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yU9h0AE",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Canceled",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Colp2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "175.52"
+        }
+      ],
+      "Account": {
+        "Phone": "951-385-5056",
+        "Id": "001VF00000IuRrYYAV",
+        "type": "Account",
+        "PersonEmail": "shriya_sh@perfaware.com",
+        "Name": "Shriya S H"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002QDZzYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002QDZxYAO",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        }
+      ],
+      "BillingCity": "White Plains",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106457",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "0.0",
+      "BillingCountry": "United States",
+      "BillingStreet": "123 Main St",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002QDZzYAO",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EjBYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002QDZxYAO",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EhZYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        }
+      ],
+      "BillingStateCode": "GA",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "123 Main St",
+          "FulfilledToState": "Georgia",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "shriya_sh@perfaware.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "White Plains",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "951-385-5056",
+          "FulfilledToPostalCode": "10601",
+          "FulfilledToName": "Shriya S H",
+          "FulfilledToStateCode": "GA",
+          "Id": "0a3VF0000002zPBYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-04T14:47:36.000Z",
+      "BillingPostalCode": "10601",
+      "Id": "1OsVF000000yV2X0AU",
+      "BillingState": "Georgia"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000ConR2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "248.15"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002QK3aYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3426",
+          "TotalTaxAmount": "5.72",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002QK3ZYAW",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106458",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002QK3aYAG",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003Eo1YAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002zXFYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-04T18:19:28.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yYOb0AM",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Cop32AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "744.51"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002QK5CYAW",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "230.99",
+          "NS_Item_ID__c": "3427",
+          "TotalTaxAmount": "17.18",
+          "TotalLineAmount": "230.99",
+          "Id": "10uVF000002QK5BYAW",
+          "type": "OrderItemSummary",
+          "Name": "Chicken & Rice 18 oz (21 Pack) Medium Box"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106459",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002QK5CYAW",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EpdYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002zQnYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-04T18:19:31.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yYQD0A2",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000Coqf2AC",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "262.12"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002QK6sYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "0.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "0.0",
+          "Id": "10uVF000002QK6pYAG",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "5.73",
+          "TotalLineAmount": "76.99",
+          "Id": "10uVF000002QK6nYAG",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106460",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "19.99",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002QK6pYAG",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Prorated Shipping Adjustment"
+          },
+          "AdjustmentCause": null,
+          "Id": "0ahVF0000003EuTYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Prorated Shipping Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002QK6pYAG",
+          "TotalAmtWithTax": "0.0",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8794",
+            "Id": "0c8VF0000000CsPYAU",
+            "type": "Promotion",
+            "Name": "Non-frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003ErGYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        },
+        {
+          "OrderItemSummaryId": "10uVF000002QK6sYAG",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003ErFYAU",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002zVdYAI"
+        }
+      ],
+      "CreatedDate": "2025-04-04T18:19:34.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yYRp0AM",
+      "BillingState": "New Mexico"
+    },
+    {
+      "Status": "Approved",
+      "OrderPaymentSummaries": [
+        {
+          "Id": "0bMVF000000CosH2AS",
+          "Method": "Visa - 5262",
+          "type": "OrderPaymentSummary",
+          "CapturedAmount": "229.86"
+        }
+      ],
+      "Account": {
+        "Phone": "760-779-3149",
+        "Id": "001VF00000J0qoWYAR",
+        "type": "Account",
+        "PersonEmail": "bellap@justfoodfordogs.com",
+        "Name": "Bella QA"
+      },
+      "OrderItemSummaries": [
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "0.0",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002QKDJYA4",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Frozen"
+        },
+        {
+          "QuantityNetOrdered": "1.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": null,
+          "TotalTaxAmount": "1.48",
+          "TotalLineAmount": "19.99",
+          "Id": "10uVF000002QKDIYA4",
+          "type": "OrderItemSummary",
+          "Name": "Shipping - Ambient"
+        },
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "19.99",
+          "NS_Item_ID__c": "3873",
+          "TotalTaxAmount": "2.97",
+          "TotalLineAmount": "39.98",
+          "Id": "10uVF000002QKDGYA4",
+          "type": "OrderItemSummary",
+          "Name": "Pork Treats 5 oz"
+        },
+        {
+          "QuantityNetOrdered": "2.0",
+          "UnitPrice": "76.99",
+          "NS_Item_ID__c": "3529",
+          "TotalTaxAmount": "11.46",
+          "TotalLineAmount": "153.98",
+          "Id": "10uVF000002QKDFYA4",
+          "type": "OrderItemSummary",
+          "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+        }
+      ],
+      "BillingCity": "Rio Rancho",
+      "batchId__c": "1516387",
+      "BillingCountryCode": "US",
+      "OrderNumber": "stg-00106461",
+      "type": "OrderSummary",
+      "TotalDeliveryAmount": "39.98",
+      "BillingCountry": "United States",
+      "BillingStreet": "1790 Grande Boulevard Southeast",
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "OrderItemSummaryId": "10uVF000002QKDJYA4",
+          "TotalAmtWithTax": "-19.99",
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Id": null,
+            "type": "OrderItemAdjustmentLineItem",
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "NS_Item_ID__c": "8793",
+            "Id": "0c8VF0000000CpBYAU",
+            "type": "Promotion",
+            "Name": "Frozen Free Shipping Applied"
+          },
+          "Id": "0ahVF0000003EsrYAE",
+          "type": "OrderItemAdjustmentLineSummary",
+          "Name": "Shipping Price Adjustment"
+        }
+      ],
+      "BillingStateCode": "NM",
+      "FulfillmentOrders": [
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhBYAU",
+            "type": "Location",
+            "Name": "Smart WH - Edgerton KS"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002zU1YAI"
+        },
+        {
+          "FulfilledToStreet": "1790 Grande Boulevard Southeast",
+          "FulfilledToState": "New Mexico",
+          "FulfilledToCountry": "United States",
+          "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+          "FulfilledToCountryCode": "US",
+          "type": "FulfillmentOrder",
+          "FulfilledToCity": "Rio Rancho",
+          "FulfilledFromLocation": {
+            "Id": "131VF000000yHhAYAU",
+            "type": "Location",
+            "Name": "Smart WH - Independence MO"
+          },
+          "FulfilledToPhone": "505-123-1231",
+          "FulfilledToPostalCode": "87124",
+          "FulfilledToName": "Bella Ponce",
+          "FulfilledToStateCode": "NM",
+          "Id": "0a3VF0000002zSPYAY"
+        }
+      ],
+      "CreatedDate": "2025-04-04T18:23:20.000Z",
+      "BillingPostalCode": "87124",
+      "Id": "1OsVF000000yYV30AM",
+      "BillingState": "New Mexico"
+    }
+  ]
