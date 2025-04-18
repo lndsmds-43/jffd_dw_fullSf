@@ -14,7 +14,7 @@ var exceptionByOrderResponse = getRecords(
 output application/json
 ---
 
-// Cash money
+// Cash money 2
 exceptionByOrderResponse
 groupBy ($.OrderSummaryId)
 mapObject ( 
