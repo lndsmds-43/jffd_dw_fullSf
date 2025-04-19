@@ -3,7 +3,7 @@
 import * from modules::sfFunctions
 import sfProcessException::orderSummary as orderSummary
 import sfProcessException::exception as exception
-import sfProcessException::detailedException as detailedException
+//import sfProcessException::detailedException as detailedException
 
 //var orderSummaryResponse = getRecords(sfProcessException::orderSummary::response)
 //var exceptionResponse = getRecords(sfProcessException::exception::response)
@@ -52,10 +52,10 @@ var queryAllResponse =
   "warnings": []
 }
 
-// output text/plain ---
-// executable(sfProcessException::detailedException::query)
+output text/plain ---
+executable(sfProcessException::resolved::query)
 
-output application/json
----
-sfProcessException::detailedException::response
-groupBy $.OrderSummaryId
+// output application/json
+// ---
+// sfProcessException::detailedException::response
+// groupBy $.OrderSummaryId
