@@ -1,4 +1,4 @@
-var query2 = 
+var queryAll = 
 "SELECT fields(all)
 FROM ProcessException
 WHERE Id = '2PeVF000000CmDl0AK'"
