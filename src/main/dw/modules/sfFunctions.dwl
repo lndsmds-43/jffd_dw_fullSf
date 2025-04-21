@@ -6,3 +6,9 @@ fun records(return) = return.result.records
 fun getRecords(response) = 
 response.result.records 
     map (record) -> record orderBy $$
+
+fun executableUpdate(updateFile, sobject) =
+"sf data update bulk --file $(updateFile) --sobject $(sobject) --json --async | clip"
+
+fun executableUpdateResume(terminalReturn) = 
+"sf data update resume --job-id $(terminalReturn.result.jobId)"
