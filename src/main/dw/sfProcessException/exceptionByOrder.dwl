@@ -169,3 +169,15 @@ mapObject ((ExceptionInfo, OrderSummaryid, index) ->
         "ExceptionCount" : $.ExceptionCount
     }
 )
+
+var resolvedOrders = 
+response.result.records
+groupBy ((orderExceptions) -> orderExceptions.OrderSummaryId)
+mapObject ((exceptionsInfo, orderSummaryId) -> 
+    (orderSummaryId) : 
+        (exceptionsInfo.StatusCategory contains "RESOLVED")
+        and
+        not (exceptionsInfo.StatusCategory contains "ACTIVE")
+    )
+filterObject ((value_isResolved) -> value_isResolved)
+pluck ((value_isResolved, orderSummaryId, index) -> orderSummaryId)
