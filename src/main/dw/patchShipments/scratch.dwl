@@ -9,8 +9,8 @@ var payload = [
 
     },
         {
-        "trackingNumber" : "123",
-        "sfShipmentId" : "sfId",
+        "trackingNumber" : "9653070370550714",
+        "sfShipmentId" : "0OBVF0000002JmX4AU",
         "status" : "Sent"
     },
 
@@ -84,8 +84,6 @@ output application/json
 //     }
 //)
 
-
-
 payload map ((update) ->
 {
     Id : (update.sfShipmentId) onNull (getShipmentsResponse filter update.trackingNumber == $.TrackingNumber)[0].Id,
@@ -120,37 +118,6 @@ payload map ((update) ->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ////////////////////////////
 // payload map ((update) ->
 //     update ++
@@ -180,8 +147,6 @@ payload map ((update) ->
 //     // Status : payload filter ($.Tracking == payload.TrackingNumber)
 // }
 // )
-
-
 
 
 ////////
