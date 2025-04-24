@@ -1,0 +1,130 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+s ctrl+shift+a",
+        "command": "workbench.files.action.saveAllInGroup",
+        "when": "help activeEditor"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+shift+f",
+        "command": "workbench.action.files.revert"
+    },
+    {
+        "key": "ctrl+shift+d ctrl+shift+s",
+        "command": "sfdx.force.source.deploy.current.source.file"
+    },
+    {
+        "key": "ctrl+shift+d ctrl+shift+a",
+        "command": "sfdx.force.source.deploy.source.path"
+    },
+    {
+        "key": "ctrl+shift+k ctrl+shift+k",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "bookmarks.toggleLabeled"
+    },
+    {
+        "key": "ctrl+shift+space ctrl+shift+space",
+        "command": "sfdx.retrieve.in.manifest"
+    },
+    {
+        "key": "ctrl+shift+z ctrl+shift+z",
+        "command": "workbench.action.files.saveAs",
+        "when": "hasSearchResult"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+shift+z ctrl+shift+z",
+        "command": "workbench.files.action.saveAllInGroup",
+        "when": "hasSearchResult"
+    },
+    {
+        "key": "ctrl+alt+s ctrl+alt+a",
+        "command": "saveCommitSync.saveCommitSyncCommand"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-saveCommitSync.saveCommitSyncCommand"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+shift+a",
+        "command": "sf.anon.apex.execute.document"
+    },
+    {
+        "key": "ctrl+shift+d ctrl+shift+r",
+        "command": "dw.preview.run",
+        "when": "dw.runPreview.enabled && editorLangId == 'data-weave'"
+    },
+    {
+        "key": "ctrl+shift+q ctrl+shift+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+alt+s ctrl+alt+s",
+        "command": "saveCommitSync.saveSingleCommitSyncCommand"
+    },
+    {
+        "key": "ctrl+shift+f1",
+        "command": "-saveCommitSync.saveSingleCommitSyncCommand"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+shift+d ctrl+shift+e",
+        "command": "dw.preview.enable"
+    },
+    {
+        "key": "ctrl+shift+d ctrl+shift+d",
+        "command": "dw.preview.disable"
+    },
+    {
+        "key": "ctrl+shift+q ctrl+shift+l",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+/ ctrl+shift+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]

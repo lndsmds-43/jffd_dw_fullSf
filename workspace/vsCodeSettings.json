@@ -1,0 +1,88 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "workbench.colorCustomizations": {
+
+        
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "editor.multiCursorLimit": 10000,
+    "window.autoDetectColorScheme": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "favoritesPanel.commands": [],
+    "gitlens.graph.dimMergeCommits": true,
+    "diffEditor.experimental.showMoves": true,
+    "gitlens.views.searchAndCompare.files.layout": "tree",
+    "gitlens.graph.minimap.dataType": "lines",
+    "gitlens.graph.minimap.enabled": false,
+    "gitlens.graph.layout": "editor",
+    "mule.controlPlane": "US Cloud",
+    "files.exclude": {
+        "**/.apivcs": true,
+        "**/.gitignore": true,
+        "**/.git": true,
+        "**/.designer.json": true,
+        "**/.exchange.xml": true,
+        "**/.vscode": true,
+        "**/.mvn": true,
+        "**/.tmp": true,
+        "**/.settings": true,
+        "**/.exchange_modules_tmp": true
+    },
+    "mule.runtime.muleRuntimesDirectory": "C:\\Users\\leehi\\muleRuntimes",
+    "mule.runtime.muleHome": "C:\\Users\\leehi\\muleRuntimes\\mule-enterprise-standalone-4.4.0-20230822\\",
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "salesforcedx-vscode-apex.java.home": "C:\\\\Java\\\\OpenJDK11U-jdk_x64_windows_hotspot_11.0.24_8\\\\jdk-11.0.24+8",
+    "workbench.settings.openDefaultKeybindings": true,
+    "xml.validation.filters": [
+
+
+        {
+            "pattern": "**.exsd",
+            "noGrammar": "ignore",
+            "schema": {
+                "enabled": "never"
+            }
+        },
+        {
+            "pattern": "**{.project,.classpath,plugin.xml,feature.xml,category.xml,.target,.product}",
+            "noGrammar": "ignore"
+        }
+    ],
+    "xml.format.maxLineWidth": 0,
+    "xml.foldings.includeClosingTagInFold": true,
+    "xml.format.preserveEmptyContent": true,
+    "xml.codeLens.enabled": true,
+    "search.exclude": {
+        "": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "data-weave.previewTimeout": 100000,
+    "workbench.editorAssociations": {
+        "*.csv": "default"
+    },
+    "xml.java.home": "C:\\Java\\OpenJDK11U-jdk_x64_windows_hotspot_11.0.24_8\\jdk-11.0.24+8",
+    "mule.homeDirectory": "C:\\Users\\leehi\\AnypointCodeBuilder",
+    "editor.stickyScroll.enabled": false,
+    "workbench.activityBar.location": "top"
+/**
+    "editor.tokenColorCustomizations": {
+        "[Default High Contrast]": {
+            "variables": "#FF0000",
+            "comments": "#00FF00",
+            "keywords": "#0000FF",
+            "functions": "#FFFF00",
+            "strings": "#FF00FF",
+            "types": "#FFFFFF",
+            "textMateRules": [
+
+            ]
+        },
+    }
+**/
+}
