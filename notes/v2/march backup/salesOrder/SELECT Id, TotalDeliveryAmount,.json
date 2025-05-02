@@ -1,0 +1,56 @@
+SELECT Id, TotalDeliveryAmount, 
+(Select Id, FulfilledToPhone from FulfillmentOrders),
+(SELECT Id, Name FROM OrderItemSummaries WHERE Status IN ('ALLOCATED', 'FULFILLED') OR Name IN ('Shipping - Frozen', 'Shipping - Ambient')),
+(SELECT Id, Name FROM OrderItemAdjustmentLineItemSummaries )
+FROM OrderSummary
+WHERE NS_SALES_ORDER_ID__c = null AND Status IN ('Waiting for Store to Fulfill', 'Assigned to Store', 'Fulfilled by Store', 'Approved') AND CreatedDate > 2024-06-01T01:24:51.000+0000 AND LastModifiedDate > 2025-02-01T01:24:51.000+0000
+LIMIT 1
+
+
+[
+  {
+    "attributes": {
+      "type": "OrderSummary",
+      "url": "/services/data/v62.0/sobjects/OrderSummary/1OsVF000000VVNh0AO"
+    },
+    "Id": "1OsVF000000VVNh0AO",
+    "TotalDeliveryAmount": 39.98,
+    "FulfillmentOrders": [
+      {
+        "attributes": {
+          "type": "FulfillmentOrder",
+          "url": "/services/data/v62.0/sobjects/FulfillmentOrder/0a3VF0000002T2jYAE"
+        },
+        "Id": "0a3VF0000002T2jYAE",
+        "FulfilledToPhone": "951-385-5056"
+      }
+    ],
+    "OrderItemSummaries": [
+      {
+        "attributes": {
+          "type": "OrderItemSummary",
+          "url": "/services/data/v62.0/sobjects/OrderItemSummary/10uVF000001iL9rYAE"
+        },
+        "Id": "10uVF000001iL9rYAE",
+        "Name": "Chicken & Rice 18 oz (7 Pack) Small Box"
+      },
+      {
+        "attributes": {
+          "type": "OrderItemSummary",
+          "url": "/services/data/v62.0/sobjects/OrderItemSummary/10uVF000001iL9sYAE"
+        },
+        "Id": "10uVF000001iL9sYAE",
+        "Name": "Shipping - Ambient"
+      },
+      {
+        "attributes": {
+          "type": "OrderItemSummary",
+          "url": "/services/data/v62.0/sobjects/OrderItemSummary/10uVF000001iL9tYAE"
+        },
+        "Id": "10uVF000001iL9tYAE",
+        "Name": "Shipping - Frozen"
+      }
+    ],
+    "OrderItemAdjustmentLineItemSummaries": null
+  }
+]

@@ -1,0 +1,143 @@
+1OsVF000000rXfO0AU - Old Composite Payload
+{
+  "compositeResponse": [
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "Id": "0a3VF0000002vyHYAQ",
+            "FulfilledToPhone": "989-809-8098",
+            "FulfilledToEmailAddress": "yashasauto@perfaware.com",
+            "FulfilledFromLocationId": "131VF000000yHh9YAE",
+            "FulfilledToStreet": "1234 Welsh Rd Apt 1",
+            "FulfilledToName": "Yashas S K",
+            "FulfilledToPostalCode": "19454",
+            "FulfilledToState": "Pennsylvania",
+            "FulfilledToStateCode": "PA",
+            "FulfilledToCity": "North Wales",
+            "FulfilledToCountry": "United States",
+            "FulfilledToCountryCode": "US",
+            "OrderSummary": {
+              "Id": "1OsVF000000rXfO0AU",
+              "TotalDeliveryAmount": 19.99,
+              "OrderNumber": "stg-00106394",
+              "AccountId": "001VF00000Is3tPYAR",
+              "BillingStreet": "1234 Welsh Rd Apt 1",
+              "BillingPostalCode": "19454",
+              "BillingState": "Pennsylvania",
+              "BillingStateCode": "PA",
+              "BillingCity": "North Wales",
+              "BillingCountry": "United States",
+              "BillingCountryCode": "US",
+              "CreatedDate": "2025-03-25T12:46:25.000+0000"
+            },
+            "Account": {
+              "Id": "001VF00000Is3tPYAR",
+              "Name": "Yashas S K",
+              "Phone": "070-677-3782",
+              "PersonEmail": "yashasauto@perfaware.com"
+            }
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "fulfillmentOrderResponse"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "Id": "10uVF000002Ge0NYAS",
+            "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box",
+            "TotalTaxAmount": 4.39,
+            "UnitPrice": 76.99,
+            "QuantityNetOrdered": 1,
+            "NS_Item_ID__c": "3529"
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "orderItemSummaryResponse"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "Id": "0ahVF0000003CUTYA2",
+            "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion",
+            "OrderItemSummaryId": "10uVF000002Ge0NYAS",
+            "TotalAmtWithTax": -3.85,
+            "OriginalOrderItemAdjustmentLineItem": {
+              "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+            },
+            "AdjustmentCause": {
+              "Id": "0c8VF0000000Cu1YAE",
+              "Name": "40313;subsequent-autoship-order",
+              "NS_Item_ID__c": null
+            }
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "orderItemSummaryAdjustments"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "Id": "10uVF000002Ge0PYAS",
+            "Name": "Shipping - Frozen",
+            "TotalTaxAmount": 1.2,
+            "QuantityNetOrdered": 1,
+            "TotalLineAmount": 19.99
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "shippingCosts"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "OrderItemSummaryId": "10uVF000002Ge0NYAS",
+            "FulfillmentOrderId": "0a3VF0000002vyHYAQ",
+            "FulfillmentOrder": {
+              "FulfilledFromLocation": {
+                "Id": "131VF000000yHh9YAE",
+                "Name": "Smart WH - Northampton PA"
+              }
+            }
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "fulfillmentOrderLineItemResponse"
+    }
+  ]
+}

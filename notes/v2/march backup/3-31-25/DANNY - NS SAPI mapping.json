@@ -1,0 +1,51 @@
+ns:
+  entityId: "13145"
+  entityRefName: "C002829 JFFD Web"
+  orderStatusId: "B"
+  statusId: "B"
+  shipMethodId: "3915"
+  taxItemId: "2969"
+  shipMethodRefName: "JFFD Web Shipping - 40010"
+  createFR:
+    id: "2"
+    status: "Submitted"
+  customerDeposit:
+    currency:
+      id: "1"
+    department:
+      id: "47"
+      refName: "Web - 10000"
+    paymentOption:
+      id: "4"
+  shipment:
+    DeliveryMethodId: "2Dm4T0000008Z4dSAE"
+    Status: "Shipped"
+
+~~~
+"entity": {
+  "id": p('ns.entityId'), // "13145"
+  "refName": p('ns.entityRefName') // "C002829 JFFD Web"
+},
+"orderStatus": {
+  "id": Mule::p('ns.orderStatusId') // "B"
+},
+"shipMethod": {
+  "id": Mule::p('ns.shipMethodId'), // "3915"
+  "refName": Mule::p('ns.shipMethodRefName'), // "JFFD Web Shipping - 40010"
+},
+"status": {
+  "id": Mule::p('ns.statusId') // "B"
+},
+"custbody_jffd_fr_create_status": {
+  "id": p('ns.createFR.id'), // "2"
+  "refName": p('ns.createFR.status') // "Submitted"
+},   
+"item": {
+  "id": p('ns.taxItemId') // "2969"
+},
+
+entity: has an id and refName in original body / only id in the ns sapi
+orderStatus: is commented out in ns sapi
+shipMethod: is absent in the ns sapi
+status: is absent in the ns sapi
+cust_body_jffd_create_status has an id and a refName in original body / only id in ns sapi

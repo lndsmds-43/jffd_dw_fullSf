@@ -1,0 +1,758 @@
+Get SF IDS:
+[
+  {
+    "Status": "Approved",
+    "Id": "1OsVF000000gh6z0AA",
+    "type": "OrderSummary"
+  }
+]
+
+payload from individual query
+{
+    "compositeResponse": [
+      {
+        "body": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "FulfillmentOrder",
+                "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002exRYAQ"
+              },
+              "Id": "0a3VF0000002exRYAQ",
+              "FulfilledToPhone": "636-202-1259",
+              "FulfilledFromLocationId": "131Uv000000GGK9IAO",
+              "FulfilledToStreet": "1234 Welsh Rd Apt 1",
+              "FulfilledToName": "Yashas sk",
+              "FulfilledToPostalCode": "19454",
+              "FulfilledToState": "Pennsylvania",
+              "FulfilledToStateCode": "PA",
+              "FulfilledToCity": "North Wales",
+              "FulfilledToCountry": "United States",
+              "FulfilledToCountryCode": "US",
+              "OrderSummary": {
+                "attributes": {
+                  "type": "OrderSummary",
+                  "url": "/services/data/v58.0/sobjects/OrderSummary/1OsVF000000gh6z0AA"
+                },
+                "Id": "1OsVF000000gh6z0AA",
+                "TotalDeliveryAmount": 19.99,
+                "OrderNumber": "stg-00105494",
+                "AccountId": "001VF0000099TFUYA2",
+                "BillingStreet": "1234 Welsh Rd Apt 1",
+                "BillingPostalCode": "19454",
+                "BillingState": "Pennsylvania",
+                "BillingStateCode": "PA",
+                "BillingCity": "North Wales",
+                "BillingCountry": "United States",
+                "BillingCountryCode": "US",
+                "CreatedDate": "2025-03-04T10:16:54.000+0000"
+              },
+              "Account": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v58.0/sobjects/Account/001VF0000099TFUYA2"
+                },
+                "Id": "001VF0000099TFUYA2",
+                "Name": "Yashas sk",
+                "Phone": "undefined",
+                "PersonEmail": "yashas_sk@perfaware.com"
+              }
+            }
+          ]
+        },
+        "httpHeaders": {
+          
+        },
+        "httpStatusCode": 200,
+        "referenceId": "fulfillmentOrderResponse"
+      },
+      {
+        "body": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "OrderItemSummary",
+                "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF0000020WbTYAU"
+              },
+              "Id": "10uVF0000020WbTYAU",
+              "Name": "Turkey & Whole Wheat Macaroni 72 oz (7 Pack) Large Box",
+              "TotalTaxAmount": 0,
+              "UnitPrice": 251.99,
+              "QuantityNetOrdered": 1,
+              "NS_Item_ID__c": "3531"
+            }
+          ]
+        },
+        "httpHeaders": {
+          
+        },
+        "httpStatusCode": 200,
+        "referenceId": "orderItemSummaryResponse"
+      },
+      {
+        "body": {
+          "totalSize": 2,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "OrderItemAdjustmentLineSummary",
+                "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002z2bYAA"
+              },
+              "Id": "0ahVF0000002z2bYAA",
+              "Name": "FBS100401050003 - You saved 50% Off!",
+              "OrderItemSummaryId": "10uVF0000020WbTYAU",
+              "TotalAmtWithTax": -126,
+              "OriginalOrderItemAdjustmentLineItem": {
+                "attributes": {
+                  "type": "OrderItemAdjustmentLineItem",
+                  "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003t1Z2AQ"
+                },
+                "Name": "FBS100401050003 - You saved 50% Off!"
+              },
+              "AdjustmentCause": {
+                "attributes": {
+                  "type": "Promotion",
+                  "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJoQAO"
+                },
+                "Id": "0c84T000000XZJoQAO",
+                "Name": "40314;affiliate-50off",
+                "NS_Item_ID__c": "4073"
+              }
+            },
+            {
+              "attributes": {
+                "type": "OrderItemAdjustmentLineSummary",
+                "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002z2cYAA"
+              },
+              "Id": "0ahVF0000002z2cYAA",
+              "Name": "Shipping Price Adjustment",
+              "OrderItemSummaryId": "10uVF0000020WbSYAU",
+              "TotalAmtWithTax": -19.99,
+              "OriginalOrderItemAdjustmentLineItem": {
+                "attributes": {
+                  "type": "OrderItemAdjustmentLineItem",
+                  "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003t1a2AA"
+                },
+                "Name": "Shipping Price Adjustment"
+              },
+              "AdjustmentCause": {
+                "attributes": {
+                  "type": "Promotion",
+                  "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJsQAO"
+                },
+                "Id": "0c84T000000XZJsQAO",
+                "Name": "Frozen Free Shipping Applied",
+                "NS_Item_ID__c": "4094"
+              }
+            }
+          ]
+        },
+        "httpHeaders": {
+          
+        },
+        "httpStatusCode": 200,
+        "referenceId": "orderItemSummaryAdjustments"
+      },
+      {
+        "body": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "OrderItemSummary",
+                "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF0000020WbSYAU"
+              },
+              "Id": "10uVF0000020WbSYAU",
+              "Name": "Shipping - Frozen",
+              "TotalTaxAmount": 0,
+              "QuantityNetOrdered": 1,
+              "TotalLineAmount": 19.99
+            }
+          ]
+        },
+        "httpHeaders": {
+          
+        },
+        "httpStatusCode": 200,
+        "referenceId": "shippingCosts"
+      },
+      {
+        "body": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "FulfillmentOrderLineItem",
+                "url": "/services/data/v58.0/sobjects/FulfillmentOrderLineItem/0a4VF0000001z6HYAQ"
+              },
+              "OrderItemSummaryId": "10uVF0000020WbTYAU",
+              "FulfillmentOrderId": "0a3VF0000002exRYAQ",
+              "FulfillmentOrder": {
+                "attributes": {
+                  "type": "FulfillmentOrder",
+                  "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002exRYAQ"
+                },
+                "FulfilledFromLocation": {
+                  "attributes": {
+                    "type": "Location",
+                    "url": "/services/data/v58.0/sobjects/Location/131Uv000000GGK9IAO"
+                  },
+                  "Id": "131Uv000000GGK9IAO",
+                  "Name": "Smart WH - Northampton PA"
+                }
+              }
+            }
+          ]
+        },
+        "httpHeaders": {
+          
+        },
+        "httpStatusCode": 200,
+        "referenceId": "fulfillmentOrderLineItemResponse"
+      }
+    ]
+  }
+
+  Reduction
+  {
+    "fulfillmentOrderResponse": [
+      {
+        "attributes": {
+          "type": "FulfillmentOrder",
+          "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002exRYAQ"
+        },
+        "Id": "0a3VF0000002exRYAQ",
+        "FulfilledToPhone": "636-202-1259",
+        "FulfilledFromLocationId": "131Uv000000GGK9IAO",
+        "FulfilledToStreet": "1234 Welsh Rd Apt 1",
+        "FulfilledToName": "Yashas sk",
+        "FulfilledToPostalCode": "19454",
+        "FulfilledToState": "Pennsylvania",
+        "FulfilledToStateCode": "PA",
+        "FulfilledToCity": "North Wales",
+        "FulfilledToCountry": "United States",
+        "FulfilledToCountryCode": "US",
+        "OrderSummary": {
+          "attributes": {
+            "type": "OrderSummary",
+            "url": "/services/data/v58.0/sobjects/OrderSummary/1OsVF000000gh6z0AA"
+          },
+          "Id": "1OsVF000000gh6z0AA",
+          "TotalDeliveryAmount": 19.99,
+          "OrderNumber": "stg-00105494",
+          "AccountId": "001VF0000099TFUYA2",
+          "BillingStreet": "1234 Welsh Rd Apt 1",
+          "BillingPostalCode": "19454",
+          "BillingState": "Pennsylvania",
+          "BillingStateCode": "PA",
+          "BillingCity": "North Wales",
+          "BillingCountry": "United States",
+          "BillingCountryCode": "US",
+          "CreatedDate": "2025-03-04T10:16:54.000+0000"
+        },
+        "Account": {
+          "attributes": {
+            "type": "Account",
+            "url": "/services/data/v58.0/sobjects/Account/001VF0000099TFUYA2"
+          },
+          "Id": "001VF0000099TFUYA2",
+          "Name": "Yashas sk",
+          "Phone": "undefined",
+          "PersonEmail": "yashas_sk@perfaware.com"
+        }
+      }
+    ],
+    "orderItemSummaryResponse": [
+      {
+        "attributes": {
+          "type": "OrderItemSummary",
+          "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF0000020WbTYAU"
+        },
+        "Id": "10uVF0000020WbTYAU",
+        "Name": "Turkey & Whole Wheat Macaroni 72 oz (7 Pack) Large Box",
+        "TotalTaxAmount": 0,
+        "UnitPrice": 251.99,
+        "QuantityNetOrdered": 1,
+        "NS_Item_ID__c": "3531"
+      }
+    ],
+    "orderItemSummaryAdjustments": [
+      {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineSummary",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002z2bYAA"
+        },
+        "Id": "0ahVF0000002z2bYAA",
+        "Name": "FBS100401050003 - You saved 50% Off!",
+        "OrderItemSummaryId": "10uVF0000020WbTYAU",
+        "TotalAmtWithTax": -126,
+        "OriginalOrderItemAdjustmentLineItem": {
+          "attributes": {
+            "type": "OrderItemAdjustmentLineItem",
+            "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003t1Z2AQ"
+          },
+          "Name": "FBS100401050003 - You saved 50% Off!"
+        },
+        "AdjustmentCause": {
+          "attributes": {
+            "type": "Promotion",
+            "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJoQAO"
+          },
+          "Id": "0c84T000000XZJoQAO",
+          "Name": "40314;affiliate-50off",
+          "NS_Item_ID__c": "4073"
+        }
+      },
+      {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineSummary",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002z2cYAA"
+        },
+        "Id": "0ahVF0000002z2cYAA",
+        "Name": "Shipping Price Adjustment",
+        "OrderItemSummaryId": "10uVF0000020WbSYAU",
+        "TotalAmtWithTax": -19.99,
+        "OriginalOrderItemAdjustmentLineItem": {
+          "attributes": {
+            "type": "OrderItemAdjustmentLineItem",
+            "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003t1a2AA"
+          },
+          "Name": "Shipping Price Adjustment"
+        },
+        "AdjustmentCause": {
+          "attributes": {
+            "type": "Promotion",
+            "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJsQAO"
+          },
+          "Id": "0c84T000000XZJsQAO",
+          "Name": "Frozen Free Shipping Applied",
+          "NS_Item_ID__c": "4094"
+        }
+      }
+    ],
+    "shippingCosts": [
+      {
+        "attributes": {
+          "type": "OrderItemSummary",
+          "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF0000020WbSYAU"
+        },
+        "Id": "10uVF0000020WbSYAU",
+        "Name": "Shipping - Frozen",
+        "TotalTaxAmount": 0,
+        "QuantityNetOrdered": 1,
+        "TotalLineAmount": 19.99
+      }
+    ],
+    "fulfillmentOrderLineItemResponse": [
+      {
+        "attributes": {
+          "type": "FulfillmentOrderLineItem",
+          "url": "/services/data/v58.0/sobjects/FulfillmentOrderLineItem/0a4VF0000001z6HYAQ"
+        },
+        "OrderItemSummaryId": "10uVF0000020WbTYAU",
+        "FulfillmentOrderId": "0a3VF0000002exRYAQ",
+        "FulfillmentOrder": {
+          "attributes": {
+            "type": "FulfillmentOrder",
+            "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002exRYAQ"
+          },
+          "FulfilledFromLocation": {
+            "attributes": {
+              "type": "Location",
+              "url": "/services/data/v58.0/sobjects/Location/131Uv000000GGK9IAO"
+            },
+            "Id": "131Uv000000GGK9IAO",
+            "Name": "Smart WH - Northampton PA"
+          }
+        }
+      }
+    ]
+  }
+
+
+  netsuite salesOrderMapping and sfPromotions Mapping
+  payload
+  {
+    "billingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "otherrefnum": "stg-00105494",
+    "tranDate": "2025-03-04",
+    "entity": {
+      "id": "13145",
+      "refName": "C002829 JFFD Web"
+    },
+    "externalId": "1OsVF000000gh6z0AA",
+    "custbody_jffd_ch_order_id": "1OsVF000000gh6z0AA",
+    "custbody_jffd_customer_name": "Yashas sk",
+    "custbody_jffd_customer_email": null,
+    "custbody_jffd_customer_phone": "636-202-1259",
+    "orderStatus": {
+      "id": "B"
+    },
+    "shipMethod": {
+      "id": "3915",
+      "refName": "JFFD Web Shipping - 40010"
+    },
+    "shippingCost": null,
+    "status": {
+      "id": "B"
+    },
+    "shippingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "custbody_jffd_fr_create_status": {
+      "id": "2",
+      "refName": "Submitted"
+    },
+    "item": {
+      "items": [
+        {
+          "item": {
+            "id": "3531",
+            "refName": "Turkey & Whole Wheat Macaroni 72 oz (7 Pack) Large Box"
+          },
+          "quantity": 1,
+          "rate": 251.99,
+          "location": {
+            "id": "131Uv000000GGK9IAO",
+            "refName": "Smart WH - Northampton PA"
+          }
+        },
+        {
+          "item": {
+            "id": "4073",
+            "refName": "FBS100401050003 - You saved 50% Off!"
+          },
+          "itemType": {
+            "id": "Discount",
+            "refName": "Discount"
+          },
+          "price": {
+            "id": "-1"
+          },
+          "rate": -126
+        }
+      ]
+    }
+  }
+
+  sfPromotions
+  {
+    "items": [
+      {
+        "item": {
+          "id": "4094",
+          "refName": "Shipping Price Adjustment"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -19.99
+      }
+    ]
+  }
+
+
+  netsuite shipment tax mapping
+  {
+    "billingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "otherrefnum": "stg-00105494",
+    "tranDate": "2025-03-04",
+    "entity": {
+      "id": "13145",
+      "refName": "C002829 JFFD Web"
+    },
+    "externalId": "1OsVF000000gh6z0AA",
+    "custbody_jffd_ch_order_id": "1OsVF000000gh6z0AA",
+    "custbody_jffd_customer_name": "Yashas sk",
+    "custbody_jffd_customer_email": null,
+    "custbody_jffd_customer_phone": "636-202-1259",
+    "orderStatus": {
+      "id": "B"
+    },
+    "shipMethod": {
+      "id": "3915",
+      "refName": "JFFD Web Shipping - 40010"
+    },
+    "shippingCost": null,
+    "status": {
+      "id": "B"
+    },
+    "shippingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "custbody_jffd_fr_create_status": {
+      "id": "2",
+      "refName": "Submitted"
+    },
+    "item": {
+      "items": [
+        {
+          "item": {
+            "id": "3531",
+            "refName": "Turkey & Whole Wheat Macaroni 72 oz (7 Pack) Large Box"
+          },
+          "quantity": 1,
+          "rate": 251.99,
+          "location": {
+            "id": "131Uv000000GGK9IAO",
+            "refName": "Smart WH - Northampton PA"
+          }
+        },
+        {
+          "item": {
+            "id": "4073",
+            "refName": "FBS100401050003 - You saved 50% Off!"
+          },
+          "itemType": {
+            "id": "Discount",
+            "refName": "Discount"
+          },
+          "price": {
+            "id": "-1"
+          },
+          "rate": -126
+        }
+      ]
+    }
+  }
+
+  netsuite warehouse id mapping
+  {
+    "billingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "otherrefnum": "stg-00105494",
+    "tranDate": "2025-03-04",
+    "entity": {
+      "id": "13145",
+      "refName": "C002829 JFFD Web"
+    },
+    "externalId": "1OsVF000000gh6z0AA",
+    "custbody_jffd_ch_order_id": "1OsVF000000gh6z0AA",
+    "custbody_jffd_customer_name": "Yashas sk",
+    "custbody_jffd_customer_email": null,
+    "custbody_jffd_customer_phone": "636-202-1259",
+    "orderStatus": {
+      "id": "B"
+    },
+    "shipMethod": {
+      "id": "3915",
+      "refName": "JFFD Web Shipping - 40010"
+    },
+    "shippingCost": null,
+    "status": {
+      "id": "B"
+    },
+    "shippingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "custbody_jffd_fr_create_status": {
+      "id": "2",
+      "refName": "Submitted"
+    },
+    "item": {
+      "items": [
+        {
+          "item": {
+            "id": "3531",
+            "refName": "Turkey & Whole Wheat Macaroni 72 oz (7 Pack) Large Box"
+          },
+          "quantity": 1,
+          "rate": 251.99,
+          "location": {
+            "id": "269",
+            "refName": "Smart WH - Northampton PA"
+          }
+        },
+        {
+          "item": {
+            "id": "4073",
+            "refName": "FBS100401050003 - You saved 50% Off!"
+          },
+          "itemType": {
+            "id": "Discount",
+            "refName": "Discount"
+          },
+          "price": {
+            "id": "-1"
+          },
+          "rate": -126
+        }
+      ]
+    }
+  }
+
+  netsuite discount item mapping
+  {
+    "billingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "otherrefnum": "stg-00105494",
+    "tranDate": "2025-03-04",
+    "entity": {
+      "id": "13145",
+      "refName": "C002829 JFFD Web"
+    },
+    "externalId": "1OsVF000000gh6z0AA",
+    "custbody_jffd_ch_order_id": "1OsVF000000gh6z0AA",
+    "custbody_jffd_customer_name": "Yashas sk",
+    "custbody_jffd_customer_email": null,
+    "custbody_jffd_customer_phone": "636-202-1259",
+    "orderStatus": {
+      "id": "B"
+    },
+    "shipMethod": {
+      "id": "3915",
+      "refName": "JFFD Web Shipping - 40010"
+    },
+    "shippingCost": null,
+    "status": {
+      "id": "B"
+    },
+    "shippingAddress": {
+      "attention": "Yashas sk",
+      "addr1": "1234 Welsh Rd Apt 1",
+      "addressee": "Yashas sk",
+      "city": "North Wales",
+      "country": {
+        "id": "US",
+        "refName": "United States"
+      },
+      "state": "PA",
+      "zip": "19454",
+      "override": true
+    },
+    "custbody_jffd_fr_create_status": {
+      "id": "2",
+      "refName": "Submitted"
+    },
+    "item": {
+      "items": [
+        {
+          "item": {
+            "id": "3531",
+            "refName": "Turkey & Whole Wheat Macaroni 72 oz (7 Pack) Large Box"
+          },
+          "quantity": 1,
+          "rate": 251.99,
+          "location": {
+            "id": "269",
+            "refName": "Smart WH - Northampton PA"
+          }
+        },
+        {
+          "item": {
+            "id": "4073",
+            "refName": "FBS100401050003 - You saved 50% Off!"
+          },
+          "itemType": {
+            "id": "Discount",
+            "refName": "Discount"
+          },
+          "price": {
+            "id": "-1"
+          },
+          "rate": -126
+        },
+        {
+          "item": {
+            "id": "4094",
+            "refName": "Shipping Price Adjustment"
+          },
+          "itemType": {
+            "id": "Discount",
+            "refName": "Discount"
+          },
+          "price": {
+            "id": "-1"
+          },
+          "rate": -19.99
+        }
+      ]
+    }
+  }

@@ -1,0 +1,34 @@
+SELECT count(id), DeliveryMethodId
+FROM Shipment 
+GROUP BY DeliveryMethodId 
+
+[
+  {
+    "attributes": {
+      "type": "AggregateResult"
+    },
+    "expr0": 5588,
+    "DeliveryMethodId": null
+  },
+  {
+    "attributes": {
+      "type": "AggregateResult"
+    },
+    "expr0": 1,
+    "DeliveryMethodId": "2DmVF0000002OJB0A2"
+  },
+  {
+    "attributes": {
+      "type": "AggregateResult"
+    },
+    "expr0": 142014,
+    "DeliveryMethodId": "2Dm4T0000008Z4dSAE"
+  },
+  {
+    "attributes": {
+      "type": "AggregateResult"
+    },
+    "expr0": 2,
+    "DeliveryMethodId": "2DmVF0000002OHZ0A2"
+  }
+]

@@ -1,0 +1,18 @@
+1OsVF000000rXfO0AU - sfFulfillmentOrderLineItemsResponse
+[
+  {
+    "FulfillmentOrderId": "0a3VF0000002vyHYAQ",
+    "OrderItemSummaryId": "10uVF000002Ge0NYAS",
+    "Id": null,
+    "type": "FulfillmentOrderLineItem",
+    "FulfillmentOrder": {
+      "Id": null,
+      "type": "FulfillmentOrder",
+      "FulfilledFromLocation": {
+        "Id": "131VF000000yHh9YAE",
+        "type": "Location",
+        "Name": "Smart WH - Northampton PA"
+      }
+    }
+  }
+]

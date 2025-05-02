@@ -1,0 +1,577 @@
+{
+  "compositeResponse": [
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "FulfillmentOrder",
+              "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002ayfYAA"
+            },
+            "Id": "0a3VF0000002ayfYAA",
+            "FulfilledToPhone": "760-779-3149",
+            "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+            "FulfilledFromLocationId": "131Uv000000GGTpIAO",
+            "FulfilledToStreet": "13046 Signature Point Unit 1",
+            "FulfilledToName": "Bella QA",
+            "FulfilledToPostalCode": "92130",
+            "FulfilledToState": "California",
+            "FulfilledToStateCode": "CA",
+            "FulfilledToCity": "San Diego",
+            "FulfilledToCountry": "United States",
+            "FulfilledToCountryCode": "US",
+            "OrderSummary": {
+              "attributes": {
+                "type": "OrderSummary",
+                "url": "/services/data/v58.0/sobjects/OrderSummary/1OsVF000000ck6f0AA"
+              },
+              "Id": "1OsVF000000ck6f0AA",
+              "OrderNumber": "stg-00105365",
+              "AccountId": "001VF000008C17DYAS",
+              "BillingStreet": "13046 Signature Point Unit 1",
+              "BillingPostalCode": "92130",
+              "BillingState": "California",
+              "BillingStateCode": "CA",
+              "BillingCity": "San Diego",
+              "BillingCountry": "United States",
+              "BillingCountryCode": "US",
+              "CreatedDate": "2025-02-20T14:53:46.000+0000"
+            },
+            "Account": {
+              "attributes": {
+                "type": "Account",
+                "url": "/services/data/v58.0/sobjects/Account/001VF000008C17DYAS"
+              },
+              "Id": "001VF000008C17DYAS",
+              "Name": "Bella QA",
+              "Phone": null,
+              "PersonEmail": "bellap@justfoodfordogs.com"
+            }
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "fulfillmentOrderResponse"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "OrderItemSummary",
+              "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF000001t2v4YAA"
+            },
+            "Id": "10uVF000001t2v4YAA",
+            "Name": "Chicken & Rice 18 oz (7 Pack) Small Box",
+            "TotalTaxAmount": 5.97,
+            "UnitPrice": 76.99,
+            "QuantityNetOrdered": 1,
+            "NS_Item_ID__c": "3426"
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "orderItemSummaryResponse"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "OrderItemSummary",
+              "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF000001t2v6YAA"
+            },
+            "Id": "10uVF000001t2v6YAA",
+            "Name": "Shipping - Frozen",
+            "TotalTaxAmount": 0,
+            "QuantityNetOrdered": 1,
+            "TotalLineAmount": 19.99
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "shippingCost"
+    },
+    {
+      "body": {
+        "totalSize": 3,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "OrderItemAdjustmentLineSummary",
+              "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xFJYAY"
+            },
+            "Id": "0ahVF0000002xFJYAY",
+            "Name": "Shipping Price Adjustment",
+            "OrderItemSummaryId": "10uVF000001t2v6YAA",
+            "TotalAmtWithTax": -19.99,
+            "OriginalOrderItemAdjustmentLineItem": {
+              "attributes": {
+                "type": "OrderItemAdjustmentLineItem",
+                "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rB32AI"
+              },
+              "Name": "Shipping Price Adjustment"
+            },
+            "AdjustmentCause": {
+              "attributes": {
+                "type": "Promotion",
+                "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJsQAO"
+              },
+              "NS_Item_ID__c": "4094",
+              "Id": "0c84T000000XZJsQAO",
+              "Name": "Frozen Free Shipping Applied"
+            }
+          },
+          {
+            "attributes": {
+              "type": "OrderItemAdjustmentLineSummary",
+              "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xFKYAY"
+            },
+            "Id": "0ahVF0000002xFKYAY",
+            "Name": "Shipping Price Adjustment",
+            "OrderItemSummaryId": "10uVF000001t2v5YAA",
+            "TotalAmtWithTax": 0,
+            "OriginalOrderItemAdjustmentLineItem": {
+              "attributes": {
+                "type": "OrderItemAdjustmentLineItem",
+                "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rB42AI"
+              },
+              "Name": "Shipping Price Adjustment"
+            },
+            "AdjustmentCause": {
+              "attributes": {
+                "type": "Promotion",
+                "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJaQAO"
+              },
+              "NS_Item_ID__c": "4044",
+              "Id": "0c84T000000XZJaQAO",
+              "Name": "Dry Goods Free Shipping Applied"
+            }
+          },
+          {
+            "attributes": {
+              "type": "OrderItemAdjustmentLineSummary",
+              "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xGvYAI"
+            },
+            "Id": "0ahVF0000002xGvYAI",
+            "Name": "Prorated Shipping Adjustment",
+            "OrderItemSummaryId": "10uVF000001t2v5YAA",
+            "TotalAmtWithTax": 0,
+            "OriginalOrderItemAdjustmentLineItem": {
+              "attributes": {
+                "type": "OrderItemAdjustmentLineItem",
+                "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rCf2AI"
+              },
+              "Name": "Prorated Shipping Adjustment"
+            },
+            "AdjustmentCause": null
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "orderItemSummaryAdjustments"
+    },
+    {
+      "body": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "FulfillmentOrderLineItem",
+              "url": "/services/data/v58.0/sobjects/FulfillmentOrderLineItem/0a4VF0000001w1xYAA"
+            },
+            "OrderItemSummaryId": "10uVF000001t2v4YAA",
+            "FulfillmentOrderId": "0a3VF0000002ayfYAA",
+            "FulfillmentOrder": {
+              "attributes": {
+                "type": "FulfillmentOrder",
+                "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002ayfYAA"
+              },
+              "FulfilledFromLocation": {
+                "attributes": {
+                  "type": "Location",
+                  "url": "/services/data/v58.0/sobjects/Location/131Uv000000GGTpIAO"
+                },
+                "Id": "131Uv000000GGTpIAO",
+                "Name": "Smart WH - Reno NV"
+              }
+            }
+          }
+        ]
+      },
+      "httpHeaders": {
+        
+      },
+      "httpStatusCode": 200,
+      "referenceId": "fulfillmentOrderLineItemResponse"
+    }
+  ]
+}
+
+Reduction to compQueryRespOrderSummary
+Transform:
+{
+  "fulfillmentOrderResponse": [
+    {
+      "attributes": {
+        "type": "FulfillmentOrder",
+        "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002ayfYAA"
+      },
+      "Id": "0a3VF0000002ayfYAA",
+      "FulfilledToPhone": "760-779-3149",
+      "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+      "FulfilledFromLocationId": "131Uv000000GGTpIAO",
+      "FulfilledToStreet": "13046 Signature Point Unit 1",
+      "FulfilledToName": "Bella QA",
+      "FulfilledToPostalCode": "92130",
+      "FulfilledToState": "California",
+      "FulfilledToStateCode": "CA",
+      "FulfilledToCity": "San Diego",
+      "FulfilledToCountry": "United States",
+      "FulfilledToCountryCode": "US",
+      "OrderSummary": {
+        "attributes": {
+          "type": "OrderSummary",
+          "url": "/services/data/v58.0/sobjects/OrderSummary/1OsVF000000ck6f0AA"
+        },
+        "Id": "1OsVF000000ck6f0AA",
+        "OrderNumber": "stg-00105365",
+        "AccountId": "001VF000008C17DYAS",
+        "BillingStreet": "13046 Signature Point Unit 1",
+        "BillingPostalCode": "92130",
+        "BillingState": "California",
+        "BillingStateCode": "CA",
+        "BillingCity": "San Diego",
+        "BillingCountry": "United States",
+        "BillingCountryCode": "US",
+        "CreatedDate": "2025-02-20T14:53:46.000+0000"
+      },
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001VF000008C17DYAS"
+        },
+        "Id": "001VF000008C17DYAS",
+        "Name": "Bella QA",
+        "Phone": null,
+        "PersonEmail": "bellap@justfoodfordogs.com"
+      }
+    }
+  ],
+  "orderItemSummaryResponse": [
+    {
+      "attributes": {
+        "type": "OrderItemSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF000001t2v4YAA"
+      },
+      "Id": "10uVF000001t2v4YAA",
+      "Name": "Chicken & Rice 18 oz (7 Pack) Small Box",
+      "TotalTaxAmount": 5.97,
+      "UnitPrice": 76.99,
+      "QuantityNetOrdered": 1,
+      "NS_Item_ID__c": "3426"
+    }
+  ],
+  "shippingCost": [
+    {
+      "attributes": {
+        "type": "OrderItemSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF000001t2v6YAA"
+      },
+      "Id": "10uVF000001t2v6YAA",
+      "Name": "Shipping - Frozen",
+      "TotalTaxAmount": 0,
+      "QuantityNetOrdered": 1,
+      "TotalLineAmount": 19.99
+    }
+  ],
+  "orderItemSummaryAdjustments": [
+    {
+      "attributes": {
+        "type": "OrderItemAdjustmentLineSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xFJYAY"
+      },
+      "Id": "0ahVF0000002xFJYAY",
+      "Name": "Shipping Price Adjustment",
+      "OrderItemSummaryId": "10uVF000001t2v6YAA",
+      "TotalAmtWithTax": -19.99,
+      "OriginalOrderItemAdjustmentLineItem": {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineItem",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rB32AI"
+        },
+        "Name": "Shipping Price Adjustment"
+      },
+      "AdjustmentCause": {
+        "attributes": {
+          "type": "Promotion",
+          "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJsQAO"
+        },
+        "NS_Item_ID__c": "4094",
+        "Id": "0c84T000000XZJsQAO",
+        "Name": "Frozen Free Shipping Applied"
+      }
+    },
+    {
+      "attributes": {
+        "type": "OrderItemAdjustmentLineSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xFKYAY"
+      },
+      "Id": "0ahVF0000002xFKYAY",
+      "Name": "Shipping Price Adjustment",
+      "OrderItemSummaryId": "10uVF000001t2v5YAA",
+      "TotalAmtWithTax": 0,
+      "OriginalOrderItemAdjustmentLineItem": {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineItem",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rB42AI"
+        },
+        "Name": "Shipping Price Adjustment"
+      },
+      "AdjustmentCause": {
+        "attributes": {
+          "type": "Promotion",
+          "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJaQAO"
+        },
+        "NS_Item_ID__c": "4044",
+        "Id": "0c84T000000XZJaQAO",
+        "Name": "Dry Goods Free Shipping Applied"
+      }
+    },
+    {
+      "attributes": {
+        "type": "OrderItemAdjustmentLineSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xGvYAI"
+      },
+      "Id": "0ahVF0000002xGvYAI",
+      "Name": "Prorated Shipping Adjustment",
+      "OrderItemSummaryId": "10uVF000001t2v5YAA",
+      "TotalAmtWithTax": 0,
+      "OriginalOrderItemAdjustmentLineItem": {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineItem",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rCf2AI"
+        },
+        "Name": "Prorated Shipping Adjustment"
+      },
+      "AdjustmentCause": null
+    }
+  ],
+  "fulfillmentOrderLineItemResponse": [
+    {
+      "attributes": {
+        "type": "FulfillmentOrderLineItem",
+        "url": "/services/data/v58.0/sobjects/FulfillmentOrderLineItem/0a4VF0000001w1xYAA"
+      },
+      "OrderItemSummaryId": "10uVF000001t2v4YAA",
+      "FulfillmentOrderId": "0a3VF0000002ayfYAA",
+      "FulfillmentOrder": {
+        "attributes": {
+          "type": "FulfillmentOrder",
+          "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002ayfYAA"
+        },
+        "FulfilledFromLocation": {
+          "attributes": {
+            "type": "Location",
+            "url": "/services/data/v58.0/sobjects/Location/131Uv000000GGTpIAO"
+          },
+          "Id": "131Uv000000GGTpIAO",
+          "Name": "Smart WH - Reno NV"
+        }
+      }
+    }
+  ]
+}
+compQueryRespOrderSummary
+{
+  "fulfillmentOrderResponse": [
+    {
+      "attributes": {
+        "type": "FulfillmentOrder",
+        "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002ayfYAA"
+      },
+      "Id": "0a3VF0000002ayfYAA",
+      "FulfilledToPhone": "760-779-3149",
+      "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+      "FulfilledFromLocationId": "131Uv000000GGTpIAO",
+      "FulfilledToStreet": "13046 Signature Point Unit 1",
+      "FulfilledToName": "Bella QA",
+      "FulfilledToPostalCode": "92130",
+      "FulfilledToState": "California",
+      "FulfilledToStateCode": "CA",
+      "FulfilledToCity": "San Diego",
+      "FulfilledToCountry": "United States",
+      "FulfilledToCountryCode": "US",
+      "OrderSummary": {
+        "attributes": {
+          "type": "OrderSummary",
+          "url": "/services/data/v58.0/sobjects/OrderSummary/1OsVF000000ck6f0AA"
+        },
+        "Id": "1OsVF000000ck6f0AA",
+        "OrderNumber": "stg-00105365",
+        "AccountId": "001VF000008C17DYAS",
+        "BillingStreet": "13046 Signature Point Unit 1",
+        "BillingPostalCode": "92130",
+        "BillingState": "California",
+        "BillingStateCode": "CA",
+        "BillingCity": "San Diego",
+        "BillingCountry": "United States",
+        "BillingCountryCode": "US",
+        "CreatedDate": "2025-02-20T14:53:46.000+0000"
+      },
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001VF000008C17DYAS"
+        },
+        "Id": "001VF000008C17DYAS",
+        "Name": "Bella QA",
+        "Phone": null,
+        "PersonEmail": "bellap@justfoodfordogs.com"
+      }
+    }
+  ],
+  "orderItemSummaryResponse": [
+    {
+      "attributes": {
+        "type": "OrderItemSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF000001t2v4YAA"
+      },
+      "Id": "10uVF000001t2v4YAA",
+      "Name": "Chicken & Rice 18 oz (7 Pack) Small Box",
+      "TotalTaxAmount": 5.97,
+      "UnitPrice": 76.99,
+      "QuantityNetOrdered": 1,
+      "NS_Item_ID__c": "3426"
+    }
+  ],
+  "shippingCost": [
+    {
+      "attributes": {
+        "type": "OrderItemSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemSummary/10uVF000001t2v6YAA"
+      },
+      "Id": "10uVF000001t2v6YAA",
+      "Name": "Shipping - Frozen",
+      "TotalTaxAmount": 0,
+      "QuantityNetOrdered": 1,
+      "TotalLineAmount": 19.99
+    }
+  ],
+  "orderItemSummaryAdjustments": [
+    {
+      "attributes": {
+        "type": "OrderItemAdjustmentLineSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xFJYAY"
+      },
+      "Id": "0ahVF0000002xFJYAY",
+      "Name": "Shipping Price Adjustment",
+      "OrderItemSummaryId": "10uVF000001t2v6YAA",
+      "TotalAmtWithTax": -19.99,
+      "OriginalOrderItemAdjustmentLineItem": {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineItem",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rB32AI"
+        },
+        "Name": "Shipping Price Adjustment"
+      },
+      "AdjustmentCause": {
+        "attributes": {
+          "type": "Promotion",
+          "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJsQAO"
+        },
+        "NS_Item_ID__c": "4094",
+        "Id": "0c84T000000XZJsQAO",
+        "Name": "Frozen Free Shipping Applied"
+      }
+    },
+    {
+      "attributes": {
+        "type": "OrderItemAdjustmentLineSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xFKYAY"
+      },
+      "Id": "0ahVF0000002xFKYAY",
+      "Name": "Shipping Price Adjustment",
+      "OrderItemSummaryId": "10uVF000001t2v5YAA",
+      "TotalAmtWithTax": 0,
+      "OriginalOrderItemAdjustmentLineItem": {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineItem",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rB42AI"
+        },
+        "Name": "Shipping Price Adjustment"
+      },
+      "AdjustmentCause": {
+        "attributes": {
+          "type": "Promotion",
+          "url": "/services/data/v58.0/sobjects/Promotion/0c84T000000XZJaQAO"
+        },
+        "NS_Item_ID__c": "4044",
+        "Id": "0c84T000000XZJaQAO",
+        "Name": "Dry Goods Free Shipping Applied"
+      }
+    },
+    {
+      "attributes": {
+        "type": "OrderItemAdjustmentLineSummary",
+        "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineSummary/0ahVF0000002xGvYAI"
+      },
+      "Id": "0ahVF0000002xGvYAI",
+      "Name": "Prorated Shipping Adjustment",
+      "OrderItemSummaryId": "10uVF000001t2v5YAA",
+      "TotalAmtWithTax": 0,
+      "OriginalOrderItemAdjustmentLineItem": {
+        "attributes": {
+          "type": "OrderItemAdjustmentLineItem",
+          "url": "/services/data/v58.0/sobjects/OrderItemAdjustmentLineItem/3qZVF0000003rCf2AI"
+        },
+        "Name": "Prorated Shipping Adjustment"
+      },
+      "AdjustmentCause": null
+    }
+  ],
+  "fulfillmentOrderLineItemResponse": [
+    {
+      "attributes": {
+        "type": "FulfillmentOrderLineItem",
+        "url": "/services/data/v58.0/sobjects/FulfillmentOrderLineItem/0a4VF0000001w1xYAA"
+      },
+      "OrderItemSummaryId": "10uVF000001t2v4YAA",
+      "FulfillmentOrderId": "0a3VF0000002ayfYAA",
+      "FulfillmentOrder": {
+        "attributes": {
+          "type": "FulfillmentOrder",
+          "url": "/services/data/v58.0/sobjects/FulfillmentOrder/0a3VF0000002ayfYAA"
+        },
+        "FulfilledFromLocation": {
+          "attributes": {
+            "type": "Location",
+            "url": "/services/data/v58.0/sobjects/Location/131Uv000000GGTpIAO"
+          },
+          "Id": "131Uv000000GGTpIAO",
+          "Name": "Smart WH - Reno NV"
+        }
+      }
+    }
+  ]
+}

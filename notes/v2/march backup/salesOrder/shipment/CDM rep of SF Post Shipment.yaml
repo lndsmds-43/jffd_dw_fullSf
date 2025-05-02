@@ -1,0 +1,48 @@
+CDM rep of SF Post Shipment
+{
+    shipTo: {
+        address: {
+            line1 : ShipToStreet,
+            city: ShipToCity,
+            state: ShipToStateCode,
+            "~~ stateText": ShipToState,
+            postalCode: ShipToPostalCode,
+            countryCode: ShipToCountryCode,
+            countryText: ShipToCountry
+        }
+    },
+    header: {
+        "~~ sfShipmentId" : Id,
+        "~~ trackingNumber" : TrackingNumber,
+        sfOrderId : OrderSummaryId
+        "~~ sfDeliveryMethodId" : DeliveryMethodId,
+        "~~ sfAccountId" : Account__c,
+        "~~ nsShipmentId" : NS_Item_Fulfillment_ID__c
+    }
+}
+
+#%RAML 1.0 DataType
+type: object
+properties:
+  sfShipmentId?:
+    description: The Salesforce Id for a Shipment
+    type: string
+    example: "0OBVF0000002Fvq4AE"
+  nsShipmentId?:
+    description: The Netsuite Id for an Item Fulfillment
+    type: string
+    example: "15648451"
+  trackingNumber?:
+    description: The tracking number for a shipment
+    type: string
+    example: "box1"
+  sfDeliveryMethodId?:
+    description: The Salesforce Id for the delivery method
+    type: string
+    example: "2Dm4T0000008Z4dSAE"
+  sfAccountId?:
+    description: The Salesforce Id for the A
+  status?:
+    description: The status of the shipment
+    type: string
+    example: "Shipped"

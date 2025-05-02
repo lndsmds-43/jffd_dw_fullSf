@@ -1,0 +1,27 @@
+Just FulfillmentOrder Ids
+SELECT Id, (SELECT Id from FulfillmentOrders ) from OrderSummary WHERE Id = '1OsVF000000jSEf0AM'
+[
+  {
+    "attributes": {
+      "type": "OrderSummary",
+      "url": "/services/data/v62.0/sobjects/OrderSummary/1OsVF000000jSEf0AM"
+    },
+    "Id": "1OsVF000000jSEf0AM",
+    "FulfillmentOrders": [
+      {
+        "attributes": {
+          "type": "FulfillmentOrder",
+          "url": "/services/data/v62.0/sobjects/FulfillmentOrder/0a3VF0000002k8PYAQ"
+        },
+        "Id": "0a3VF0000002k8PYAQ"
+      },
+      {
+        "attributes": {
+          "type": "FulfillmentOrder",
+          "url": "/services/data/v62.0/sobjects/FulfillmentOrder/0a3VF0000002kA1YAI"
+        },
+        "Id": "0a3VF0000002kA1YAI"
+      }
+    ]
+  }
+]

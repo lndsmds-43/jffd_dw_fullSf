@@ -1,0 +1,184 @@
+SF Result for 
+SELECT Id, Status, NS_Sales_Order_ID__c,
+  (SELECT Id, FulfilledToPhone, FulfilledFromLocationId, FulfilledToStreet, FulfilledToName, FulfilledToPostalCode, FulfilledToState, FulfilledToStateCode, FulfilledToCity, FulfilledToCountry, FulfilledToCountryCode , OrderSummary.id, OrderSummary.TotalDeliveryAmount, OrderSummary.OrderNumber, OrderSummary.AccountId, OrderSummary.BillingStreet, OrderSummary.BillingPostalCode, OrderSummary.BillingState, OrderSummary.BillingStateCode, OrderSummary.BillingCity, OrderSummary.BillingCountry, OrderSummary.BillingCountryCode, OrderSummary.CreatedDate,  Account.Id,  Account.Name,  Account.Phone,  Account.PersonEmail, 
+    (SELECT OrderItemSummaryId, FulfillmentOrderId, FulfillmentOrder.FulfilledFromLocation.id, FulfillmentOrder.FulfilledFromLocation.Name 
+    FROM FulfillmentOrderLineItems)
+  FROM FulfillmentOrders),
+  (SELECT Id, Name, TotalTaxAmount, UnitPrice, QuantityNetOrdered, NS_Item_ID__c, TotalLineAmount
+  FROM OrderItemSummaries
+  WHERE Status IN ('ALLOCATED', 'FULFILLED') 
+    OR Name IN ('Shipping - Frozen', 'Shipping - Ambient')),
+  (SELECT Id, Name, OrderItemSummaryId, TotalAmtWithTax, OriginalOrderItemAdjustmentLineItem.Name, 
+    TYPEOF AdjustmentCause WHEN Promotion THEN Id, Name, NS_Item_ID__c END 
+  FROM OrderItemAdjustmentLineItemSummaries)
+FROM OrderSummary 
+WHERE Id = '1OsVF000000gSPh0AM'
+LIMIT 5
+
+[
+    {
+      "Id": "1OsVF000000gSPh0AM",
+      "Status": "Hold For Test",
+      "NS_Sales_Order_ID__c": null,
+      "FulfillmentOrders": [
+        {
+          "Id": "0a3VF0000002eXdYAI",
+          "FulfilledToPhone": "760-779-3149",
+          "FulfilledFromLocationId": "131Uv000000GGGvIAO",
+          "FulfilledToStreet": "13046 Signature Point Unit 1",
+          "FulfilledToName": "Bella QA",
+          "FulfilledToPostalCode": "92130",
+          "FulfilledToState": "California",
+          "FulfilledToStateCode": "CA",
+          "FulfilledToCity": "San Diego",
+          "FulfilledToCountry": "United States",
+          "FulfilledToCountryCode": "US",
+          "OrderSummary": {
+            "Id": "1OsVF000000gSPh0AM",
+            "TotalDeliveryAmount": 39.98,
+            "OrderNumber": "stg-00105493",
+            "AccountId": "001VF000008C17DYAS",
+            "BillingStreet": "13046 Signature Point Unit 1",
+            "BillingPostalCode": "92130",
+            "BillingState": "California",
+            "BillingStateCode": "CA",
+            "BillingCity": "San Diego",
+            "BillingCountry": "United States",
+            "BillingCountryCode": "US",
+            "CreatedDate": "2025-03-03T17:20:07.000+0000"
+          },
+          "Account": {
+            "Id": "001VF000008C17DYAS",
+            "Name": "Bella QA",
+            "Phone": null,
+            "PersonEmail": "bellap@justfoodfordogs.com"
+          },
+          "FulfillmentOrderLineItems": [
+            {
+              "OrderItemSummaryId": "10uVF00000201W5YAI",
+              "FulfillmentOrderId": "0a3VF0000002eXdYAI",
+              "FulfillmentOrder": {
+                "FulfilledFromLocation": {
+                  "Id": "131Uv000000GGGvIAO",
+                  "Name": "Smart WH - Edgerton KS"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Id": "0a3VF0000002eZFYAY",
+          "FulfilledToPhone": "760-779-3149",
+          "FulfilledFromLocationId": "131Uv000000GGTpIAO",
+          "FulfilledToStreet": "13046 Signature Point Unit 1",
+          "FulfilledToName": "Bella QA",
+          "FulfilledToPostalCode": "92130",
+          "FulfilledToState": "California",
+          "FulfilledToStateCode": "CA",
+          "FulfilledToCity": "San Diego",
+          "FulfilledToCountry": "United States",
+          "FulfilledToCountryCode": "US",
+          "OrderSummary": {
+            "Id": "1OsVF000000gSPh0AM",
+            "TotalDeliveryAmount": 39.98,
+            "OrderNumber": "stg-00105493",
+            "AccountId": "001VF000008C17DYAS",
+            "BillingStreet": "13046 Signature Point Unit 1",
+            "BillingPostalCode": "92130",
+            "BillingState": "California",
+            "BillingStateCode": "CA",
+            "BillingCity": "San Diego",
+            "BillingCountry": "United States",
+            "BillingCountryCode": "US",
+            "CreatedDate": "2025-03-03T17:20:07.000+0000"
+          },
+          "Account": {
+            "Id": "001VF000008C17DYAS",
+            "Name": "Bella QA",
+            "Phone": null,
+            "PersonEmail": "bellap@justfoodfordogs.com"
+          },
+          "FulfillmentOrderLineItems": [
+            {
+              "OrderItemSummaryId": "10uVF00000201W3YAI",
+              "FulfillmentOrderId": "0a3VF0000002eZFYAY",
+              "FulfillmentOrder": {
+                "FulfilledFromLocation": {
+                  "Id": "131Uv000000GGTpIAO",
+                  "Name": "Smart WH - Reno NV"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "OrderItemSummaries": [
+        {
+          "Id": "10uVF00000201W1YAI",
+          "Name": "Shipping - Ambient",
+          "TotalTaxAmount": 0,
+          "UnitPrice": 19.99,
+          "QuantityNetOrdered": 1,
+          "NS_Item_ID__c": null,
+          "TotalLineAmount": 19.99
+        },
+        {
+          "Id": "10uVF00000201W3YAI",
+          "Name": "Chicken & Rice 18 oz (7 Pack) Small Box",
+          "TotalTaxAmount": 5.37,
+          "UnitPrice": 76.99,
+          "QuantityNetOrdered": 1,
+          "NS_Item_ID__c": "3426",
+          "TotalLineAmount": 76.99
+        },
+        {
+          "Id": "10uVF00000201W4YAI",
+          "Name": "Shipping - Frozen",
+          "TotalTaxAmount": 0,
+          "UnitPrice": 19.99,
+          "QuantityNetOrdered": 1,
+          "NS_Item_ID__c": null,
+          "TotalLineAmount": 19.99
+        },
+        {
+          "Id": "10uVF00000201W5YAI",
+          "Name": "JustFresh Home-Cooked Beef (12 oz 7 Pack)",
+          "TotalTaxAmount": 4.34,
+          "UnitPrice": 56,
+          "QuantityNetOrdered": 1,
+          "NS_Item_ID__c": "8489",
+          "TotalLineAmount": 56
+        }
+      ],
+      "OrderItemAdjustmentLineItemSummaries": [
+        {
+          "Id": "0ahVF0000002yw9YAA",
+          "Name": "Shipping Price Adjustment",
+          "OrderItemSummaryId": "10uVF00000201W1YAI",
+          "TotalAmtWithTax": -19.99,
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Name": "Shipping Price Adjustment"
+          },
+          "AdjustmentCause": {
+            "Id": "0c84T000000XZJaQAO",
+            "Name": "Dry Goods Free Shipping Applied",
+            "NS_Item_ID__c": "4044"
+          }
+        },
+        {
+          "Id": "0ahVF0000002ywAYAQ",
+          "Name": "FBS100401020001 - 10% Off on Order Level",
+          "OrderItemSummaryId": "10uVF00000201W3YAI",
+          "TotalAmtWithTax": -7.7,
+          "OriginalOrderItemAdjustmentLineItem": {
+            "Name": "FBS100401020001 - 10% Off on Order Level"
+          },
+          "AdjustmentCause": {
+            "Id": "0c84T000000XZKDQA4",
+            "Name": "40313;10-off-order-level-discount",
+            "NS_Item_ID__c": "4050"
+          }
+        }
+      ]
+    }
+  ]

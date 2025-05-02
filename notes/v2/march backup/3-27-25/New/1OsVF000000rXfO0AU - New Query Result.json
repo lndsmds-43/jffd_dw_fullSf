@@ -1,0 +1,97 @@
+1OsVF000000rXfO0AU - New Query Result
+[
+  {
+    "Status": "Approved",
+    "OrderPaymentSummaries": [
+      {
+        "Id": "0bMVF0000008NNe2AM",
+        "Method": "Visa - 1111",
+        "type": "OrderPaymentSummary",
+        "CapturedAmount": "98.72"
+      }
+    ],
+    "Account": {
+      "Phone": "070-677-3782",
+      "Id": "001VF00000Is3tPYAR",
+      "type": "Account",
+      "PersonEmail": "yashasauto@perfaware.com",
+      "Name": "Yashas S K"
+    },
+    "OrderItemSummaries": [
+      {
+        "QuantityNetOrdered": "1.0",
+        "UnitPrice": "76.99",
+        "NS_Item_ID__c": "3529",
+        "TotalTaxAmount": "4.39",
+        "TotalLineAmount": "76.99",
+        "Id": "10uVF000002Ge0NYAS",
+        "type": "OrderItemSummary",
+        "Name": "Turkey & Whole Wheat Macaroni 18 oz (7 Pack) Small Box"
+      },
+      {
+        "QuantityNetOrdered": "1.0",
+        "UnitPrice": "19.99",
+        "NS_Item_ID__c": null,
+        "TotalTaxAmount": "1.2",
+        "TotalLineAmount": "19.99",
+        "Id": "10uVF000002Ge0PYAS",
+        "type": "OrderItemSummary",
+        "Name": "Shipping - Frozen"
+      }
+    ],
+    "BillingCity": "North Wales",
+    "batchId__c": "1512198",
+    "BillingCountryCode": "US",
+    "OrderNumber": "stg-00106394",
+    "type": "OrderSummary",
+    "TotalDeliveryAmount": "19.99",
+    "BillingCountry": "United States",
+    "BillingStreet": "1234 Welsh Rd Apt 1",
+    "OrderItemAdjustmentLineItemSummaries": [
+      {
+        "OrderItemSummaryId": "10uVF000002Ge0NYAS",
+        "TotalAmtWithTax": "-3.85",
+        "OriginalOrderItemAdjustmentLineItem": {
+          "Id": null,
+          "type": "OrderItemAdjustmentLineItem",
+          "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+        },
+        "AdjustmentCause": {
+          "NS_Item_ID__c": null,
+          "Id": "0c8VF0000000Cu1YAE",
+          "type": "Promotion",
+          "Name": "40313;subsequent-autoship-order"
+        },
+        "Id": "0ahVF0000003CUTYA2",
+        "type": "OrderItemAdjustmentLineSummary",
+        "Name": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+      }
+    ],
+    "BillingStateCode": "PA",
+    "FulfillmentOrders": [
+      {
+        "FulfilledToStreet": "1234 Welsh Rd Apt 1",
+        "FulfilledToState": "Pennsylvania",
+        "FulfilledToCountry": "United States",
+        "FulfilledToEmailAddress": "yashasauto@perfaware.com",
+        "FulfilledToCountryCode": "US",
+        "type": "FulfillmentOrder",
+        "FulfilledToCity": "North Wales",
+        "FulfilledFromLocation": {
+          "Id": "131VF000000yHh9YAE",
+          "type": "Location",
+          "Name": "Smart WH - Northampton PA"
+        },
+        "FulfilledToPhone": "989-809-8098",
+        "FulfilledToPostalCode": "19454",
+        "FulfilledToName": "Yashas S K",
+        "FulfilledToStateCode": "PA",
+        "Id": "0a3VF0000002vyHYAQ"
+      }
+    ],
+    "CreatedDate": "2025-03-25T12:46:25.000Z",
+    "BillingPostalCode": "19454",
+    "Id": "1OsVF000000rXfO0AU",
+    "BillingState": "Pennsylvania"
+  }
+]

@@ -1,0 +1,195 @@
+Current Return that is sent to the NS Sapi
+
+{
+  "billingAddress": {
+    "attention": "BellaSplit NewShipment",
+    "addr1": "2630 Granite Avenue Northwest",
+    "addressee": "BellaSplit NewShipment",
+    "city": "Albuquerque",
+    "country": {
+      "id": "US",
+      "refName": "United States"
+    },
+    "state": "NM",
+    "zip": "87104",
+    "override": true
+  },
+  "otherrefnum": "stg-00106281",
+  "tranDate": "2025-03-18",
+  "entity": {
+    "id": "13145",
+    "refName": "C002829 JFFD Web"
+  },
+  "externalId": "1OsVF000000m4Nt0AI",
+  "custbody_jffd_ch_order_id": "1OsVF000000m4Nt0AI",
+  "custbody_jffd_customer_name": "BellaSplit NewShipment",
+  "custbody_jffd_customer_email": null,
+  "custbody_jffd_customer_phone": "829-121-0000",
+  "orderStatus": {
+    "id": "B"
+  },
+  "shipMethod": {
+    "id": "3915",
+    "refName": "JFFD Web Shipping - 40010"
+  },
+  "shippingCost": 39.98,
+  "status": {
+    "id": "B"
+  },
+  "shippingAddress": {
+    "attention": "BellaSplit NewShipment",
+    "addr1": "2630 Granite Avenue Northwest",
+    "addressee": "BellaSplit NewShipment",
+    "city": "Albuquerque",
+    "country": {
+      "id": "US",
+      "refName": "United States"
+    },
+    "state": "NM",
+    "zip": "87104",
+    "override": true
+  },
+  "custbody_jffd_fr_create_status": {
+    "id": "2",
+    "refName": "Submitted"
+  },
+  "item": {
+    "items": [
+      {
+        "item": {
+          "id": "1855",
+          "refName": "Chicken Breast Treat 5 oz"
+        },
+        "quantity": 1,
+        "rate": 18.99,
+        "location": {
+          "id": "277",
+          "refName": "Smart WH - Edgerton KS"
+        }
+      },
+      {
+        "item": {
+          "id": "4146",
+          "refName": "200201180400 - Subsequent Autoship Discount Promotion"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -0.95
+      },
+      {
+        "item": {
+          "id": "2969"
+        },
+        "amount": 1.38,
+        "rate": 1.38
+      },
+      {
+        "item": {
+          "id": "3530",
+          "refName": "Turkey & Whole Wheat Macaroni 18 oz (21 Pack) Medium Box"
+        },
+        "quantity": 1,
+        "rate": 230.99,
+        "location": {
+          "id": "267",
+          "refName": "Smart WH - Independence MO"
+        }
+      },
+      {
+        "item": {
+          "id": "4146",
+          "refName": "FBS100401050002 - Subsequent Autoship Discount Promotion"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -11.55
+      },
+      {
+        "item": {
+          "id": "2969"
+        },
+        "amount": 16.73,
+        "rate": 16.73
+      },
+      {
+        "item": {
+          "id": "1834",
+          "refName": "Pantry Fresh - Turkey & Whole Wheat Macaroni 12.5 oz Case (12 Pack)"
+        },
+        "quantity": 1,
+        "rate": 89.99,
+        "location": {
+          "id": "277",
+          "refName": "Smart WH - Edgerton KS"
+        }
+      },
+      {
+        "item": {
+          "id": "4146",
+          "refName": "100101051033 - Subsequent Autoship Discount Promotion"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -4.5
+      },
+      {
+        "item": {
+          "id": "2969"
+        },
+        "amount": 6.52,
+        "rate": 6.52
+      },
+      {
+        "item": {
+          "id": "4094",
+          "refName": "Shipping Price Adjustment"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -19.99
+      },
+      {
+        "item": {
+          "id": "4044",
+          "refName": "Shipping Price Adjustment"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -19.99
+      }
+    ]
+  }
+}
+
+cameron@lifepoint
+jamie@prismpsychcare.com
+
+Aisha - 
+
+919-237-1337
+option

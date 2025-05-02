@@ -1,0 +1,78 @@
+1OsVF000000rXfO0AU - Old Transformation to NS
+{
+  "billingAddress": {
+    "attention": "Yashas S K",
+    "addr1": "1234 Welsh Rd Apt 1",
+    "addressee": "Yashas S K",
+    "city": "North Wales",
+    "country": {
+      "id": "US",
+      "refName": "United States"
+    },
+    "state": "PA",
+    "zip": "19454",
+    "override": true
+  },
+  "otherrefnum": "stg-00106394",
+  "tranDate": "2025-03-25",
+  "entity": "13145",
+  "externalId": "1OsVF000000rXfO0AU",
+  "custbody_jffd_ch_order_id": "1OsVF000000rXfO0AU",
+  "custbody_jffd_customer_name": "Yashas S K",
+  "custbody_jffd_customer_email": null,
+  "custbody_jffd_customer_phone": "989-809-8098",
+  "orderStatus": "B",
+  "shipMethod": "3915",
+  "shippingCost": 19.99,
+  "shippingAddress": {
+    "attention": "Yashas S K",
+    "addr1": "1234 Welsh Rd Apt 1",
+    "addressee": "Yashas S K",
+    "city": "North Wales",
+    "country": {
+      "id": "US",
+      "refName": "United States"
+    },
+    "state": "PA",
+    "zip": "19454",
+    "override": true
+  },
+  "custbody_jffd_fr_create_status": "2",
+  "item": {
+    "items": [
+      {
+        "item": "3529",
+        "quantity": 1,
+        "rate": 76.99,
+        "location": "131VF000000yHh9YAE"
+      },
+      {
+        "item": {
+          "id": null,
+          "refName": "FBS100401050001 - Subsequent Autoship Discount Promotion"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -3.85
+      },
+      {
+        "item": "2969",
+        "amount": 4.39,
+        "rate": 4.39
+      },
+      {
+        "item": {
+          "id": "2969",
+          "refName": null
+        },
+        "amount": 1.2,
+        "rate": 1.2
+      }
+    ]
+  }
+}

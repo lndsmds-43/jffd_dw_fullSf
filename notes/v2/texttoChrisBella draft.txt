@@ -1,0 +1,129 @@
+Hey Chris, welcome back. Wanted to loop you back in on something I found earlier in the week.
+
+
+
+Previously in the sync when Shipments were being created in Salesforce from a Netsuite Item Fulfillment the DeliveryMethodId was being set in a single configurable variable.
+
+
+
+So in Salesforce all Shipments in prod and dev have had a consistent reference to FEDEX_GROUND for delivery method. Now that we have different shipping types I'm wondering if this needs to be adjusted in v2 to reflect the actual DeliveryMethodId on the associated Fulfillment Order instead. At the minimum I've updated the reference id post refresh so it maintains the current behaviour of setting method to FEDEX_GROUND in dev.
+
+
+
+This is only on the Shipment records, not the FOs. If so we'd probably lean towards getting this main branch out for testing and making that adjustment next, but we can certainly carry that information over it is helpful now.
+
+
+
+-----------
+
+
+
+Additionally, and this is likely warranted to be a later discussion, we are currently set up to check the orders which are valid in the salesforce sapi 
+
+This allow us to only put valid orders onto the queue for syncing
+It also allows us to log the number of orders retrieved and show which are valid and invalid along with a reason which I think fits in with something along the lines of what you were asking about Thursday Chris.
+
+
+
+
+
+​INFO  2025-04-10 11:52:31,954 [[MuleRuntime].uber.02: [msi-sfdc-sys].get-orderSu
+mmaries-controller.BLOCKING @34a2b8e6] [processor: get-orderSummaries-filter-val
+id-and-invalid-orders/processors/3; event: b0e21b80-1623-11f0-8f0c-00e04c614871]
+ org.mule.extension.jsonlogger.JsonLogger: {
+  "correlationId" : "b0e21b80-1623-11f0-8f0c-00e04c614871",
+  "message" : "get-orderSummaries-filter-valid-and-invalid-orders - Valid or Inv
+alid Order Counts",
+  "tracePoint" : "AFTER_TRANSFORM",
+  "priority" : "INFO",
+  "elapsed" : 52359,
+  "locationInfo" : {
+    "lineInFile" : "186",
+    "component" : "json-logger:logger",
+    "fileName" : "implementation/get-orderSummaries.xml",
+    "rootContainer" : "get-orderSummaries-filter-valid-and-invalid-orders"
+  },
+  "timestamp" : "2025-04-10T15:52:31.951Z",
+  "content" : {
+    "Orders Retrieved" : 6,
+    "Valid Orders sent to NetSuite" : 1,
+    "Invalid Orders not sent to be synced" : 5
+  },
+  "applicationName" : "msi-sfdc-sys",
+  "applicationVersion" : "local",
+  "environment" : "Local",
+  "threadName" : "[MuleRuntime].uber.02: [msi-sfdc-sys].get-orderSummaries-contr
+oller.BLOCKING @34a2b8e6"
+}
+ERROR 2025-04-10 11:52:35,182 [[MuleRuntime].uber.05: [msi-sfdc-sys].get-orderSu
+mmaries-controller.BLOCKING @34a2b8e6] [processor: get-orderSummaries-filter-val
+id-and-invalid-orders/processors/4/route/0/processors/0; event: b0e21b80-1623-11
+f0-8f0c-00e04c614871] org.mule.extension.jsonlogger.JsonLogger: {
+  "correlationId" : "b0e21b80-1623-11f0-8f0c-00e04c614871",
+  "message" : "get-orderSummaries-filter-valid-and-invalid-orders - Invalid Orde
+r Details",
+  "tracePoint" : "EXCEPTION",
+  "priority" : "ERROR",
+  "elapsed" : 55585,
+  "locationInfo" : {
+    "lineInFile" : "196",
+    "component" : "json-logger:logger",
+    "fileName" : "implementation/get-orderSummaries.xml",
+    "rootContainer" : "get-orderSummaries-filter-valid-and-invalid-orders"
+  },
+  "timestamp" : "2025-04-10T15:52:35.177Z",
+  "content" : {
+    "invalidOrderDetails" : [ {
+      "Validation Failure" : "Validation failed and this order will not be sent 
+to be synced with NetSuite",
+      "sfOrderId" : "1OsVF000000rCRF0A2",
+      "orderNumber" : "Missing Items",
+      "Line Items error" : "The order does not have any ordered items"
+    }, {
+      "Validation Failure" : "Validation failed and this order will not be sent 
+to be synced with NetSuite",
+      "sfOrderId" : "1OsVF000000rXfO0AU",
+      "orderNumber" : "Missing Shipping",
+      "Shipping error" : "This order does not have any shipping charges"
+    }, {
+      "Validation Failure" : "Validation failed and this order will not be sent 
+to be synced with NetSuite",
+      "sfOrderId" : "1OsVF000000ri4Y0AQ",
+      "orderNumber" : "Missing Fulfillment",
+      "Fulfillments error" : "This order has no fulfillments"
+    }, {
+      "Validation Failure" : "Validation failed and this order will not be sent 
+to be synced with NetSuite",
+      "sfOrderId" : "1OsVF000000rlK90AI",
+      "orderNumber" : "Missing Location",
+      "Line Items error" : "The following items do not have location data: INVAL
+ID LOCATION LOOKUP - DIY Nutrient Kit - Chicken"
+    }, {
+      "Validation Failure" : "Validation failed and this order will not be sent 
+to be synced with NetSuite",
+      "sfOrderId" : "1OsVF000000rlgj0AA",
+      "orderNumber" : "Missing Item Ns Id",
+      "Line Items error" : "The following items do not have nsIds: 10uVF000002Gv
+sPYAS - DIY Nutrient Kit - Chicken"
+    } ]
+  },
+  "applicationName" : "msi-sfdc-sys",
+  "applicationVersion" : "local",
+  "environment" : "Local",
+  "threadName" : "[MuleRuntime].uber.05: [msi-sfdc-sys].get-orderSummaries-contr
+oller.BLOCKING @34a2b8e6"
+}
+
+
+
+These logs are currently showing up in msi-sfdc-sys and not in the sync since they directly relate to which orders in sfdc are invald and are not added to the queue where they would subsequently fail repeatedly until sent to dlq. I'm currently sending the post feed to these items as was done previously but with these sort of readable messages.
+
+
+
+If this idea works I'd also prefer it if we were able to tag the orders directly in salesforce so that they are not picked up in subsequent get orders queries until they're resolved. Whether through an update to the status or through posting a process exception, I thought it would be helpful. Both in being able to quickly see the orders in the main salesforce view and in keeping logs from reiterating about invalid orders.
+
+
+
+~~~~~~
+
+These aren't urgent but they were two Salesforce related things I came across 

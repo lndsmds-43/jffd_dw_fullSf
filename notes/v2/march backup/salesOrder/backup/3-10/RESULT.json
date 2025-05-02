@@ -1,0 +1,116 @@
+  {
+    "Id": "1OsVF000000ck6f0AA",
+    "Status": "Approved",
+    "TotalDeliveryAmount": 19.99,
+    "OrderNumber": "stg-00105365",
+    "BillingStreet": "13046 Signature Point Unit 1",
+    "BillingPostalCode": "92130",
+    "BillingState": "California",
+    "BillingStateCode": "CA",
+    "BillingCity": "San Diego",
+    "BillingCountry": "United States",
+    "BillingCountryCode": "US",
+    "CreatedDate": "2025-02-20T14:53:46.000+0000",
+    "batchId__c": "1499726",
+    "Account": {
+      "Id": "001VF000008C17DYAS",
+      "Name": "Bella QA",
+      "Phone": null,
+      "PersonEmail": "bellap@justfoodfordogs.com"
+    },
+    "FulfillmentOrders": [
+      {
+        "Id": "0a3VF0000002ayfYAA",
+        "FulfilledToPhone": "760-779-3149",
+        "FulfilledToEmailAddress": "bellap@justfoodfordogs.com",
+        "FulfilledFromLocation": {
+          "Id": "131Uv000000GGTpIAO",
+          "Name": "Smart WH - Reno NV"
+        },
+        "FulfilledToStreet": "13046 Signature Point Unit 1",
+        "FulfilledToName": "Bella QA",
+        "FulfilledToPostalCode": "92130",
+        "FulfilledToState": "California",
+        "FulfilledToStateCode": "CA",
+        "FulfilledToCity": "San Diego",
+        "FulfilledToCountry": "United States",
+        "FulfilledToCountryCode": "US"
+      }
+    ],
+    "OrderItemSummaries": [
+      {
+        "Id": "10uVF000001t2v4YAA",
+        "Name": "Chicken & Rice 18 oz (7 Pack) Small Box",
+        "TotalTaxAmount": 5.97,
+        "UnitPrice": 76.99,
+        "QuantityNetOrdered": 1,
+        "NS_Item_ID__c": "3426",
+        "TotalLineAmount": 76.99
+      },
+      {
+        "Id": "10uVF000001t2v5YAA",
+        "Name": "Shipping - Ambient",
+        "TotalTaxAmount": 0,
+        "UnitPrice": 19.99,
+        "QuantityNetOrdered": 0,
+        "NS_Item_ID__c": null,
+        "TotalLineAmount": 0
+      },
+      {
+        "Id": "10uVF000001t2v6YAA",
+        "Name": "Shipping - Frozen",
+        "TotalTaxAmount": 0,
+        "UnitPrice": 19.99,
+        "QuantityNetOrdered": 1,
+        "NS_Item_ID__c": null,
+        "TotalLineAmount": 19.99
+      }
+    ],
+    "OrderItemAdjustmentLineItemSummaries": [
+      {
+        "Id": "0ahVF0000002xFJYAY",
+        "Name": "Shipping Price Adjustment",
+        "OrderItemSummaryId": "10uVF000001t2v6YAA",
+        "TotalAmtWithTax": -19.99,
+        "OriginalOrderItemAdjustmentLineItem": {
+          "Name": "Shipping Price Adjustment"
+        },
+        "AdjustmentCause": {
+          "Id": "0c84T000000XZJsQAO",
+          "Name": "Frozen Free Shipping Applied",
+          "NS_Item_ID__c": "4094"
+        }
+      },
+      {
+        "Id": "0ahVF0000002xFKYAY",
+        "Name": "Shipping Price Adjustment",
+        "OrderItemSummaryId": "10uVF000001t2v5YAA",
+        "TotalAmtWithTax": 0,
+        "OriginalOrderItemAdjustmentLineItem": {
+          "Name": "Shipping Price Adjustment"
+        },
+        "AdjustmentCause": {
+          "Id": "0c84T000000XZJaQAO",
+          "Name": "Dry Goods Free Shipping Applied",
+          "NS_Item_ID__c": "4044"
+        }
+      },
+      {
+        "Id": "0ahVF0000002xGvYAI",
+        "Name": "Prorated Shipping Adjustment",
+        "OrderItemSummaryId": "10uVF000001t2v5YAA",
+        "TotalAmtWithTax": 0,
+        "OriginalOrderItemAdjustmentLineItem": {
+          "Name": "Prorated Shipping Adjustment"
+        },
+        "AdjustmentCause": null
+      }
+    ],
+    "OrderPaymentSummaries": [
+      {
+        "Id": "0bMVF0000003nSP2AY",
+        "Method": "Visa - 5262",
+        "CapturedAmount": 394.3
+      }
+    ]
+  }

@@ -1,0 +1,135 @@
+{
+  "billingAddress": {
+    "attention": "Bella QA",
+    "addr1": "1790 Grande Boulevard Southeast",
+    "addressee": "Bella QA",
+    "city": "Rio Rancho",
+    "country": {
+      "id": "US",
+      "refName": "United States"
+    },
+    "state": "NM",
+    "zip": "87124",
+    "override": true
+  },
+  "otherrefnum": "stg-00106271",
+  "tranDate": "2025-03-18",
+  "entity": "13145",
+  // {
+  //   "id": "13145",
+  //   "refName": "C002829 JFFD Web"
+  // },
+  "externalId": "1OsVF000000ly3y0AA",
+  "custbody_jffd_ch_order_id": "1OsVF000000ly3y0AA",
+  "custbody_jffd_customer_name": "Bella Ponce",
+  "custbody_jffd_customer_email": null,
+  "custbody_jffd_customer_phone": "505-123-1231",
+  "orderStatus": "B",
+  // {
+  //   "id": "B"
+  // },
+  "shipMethod": "3915",
+  // {
+  //   "id": "3915",
+  //   "refName": "JFFD Web Shipping - 40010"
+  // },
+  "shippingCost": 39.98,
+  "status": "B"
+  // {
+  //   "id": "B"
+  // },
+  "shippingAddress": {
+    "attention": "Bella Ponce",
+    "addr1": "1790 Grande Boulevard Southeast",
+    "addressee": "Bella Ponce",
+    "city": "Rio Rancho",
+    "country": "US",
+    // {
+    //   "id": "US",
+    //   "refName": "United States"
+    // },
+    "state": "NM",
+    "zip": "87124",
+    "override": true
+  },
+  "custbody_jffd_fr_create_status": "2",
+  // {
+  //   "id": "2",
+  //   "refName": "Submitted"
+  // },
+  "item": {
+    "items": [
+      {
+        "item": "3426",
+        // {
+        //   "id": "3426",
+        //   "refName": "Chicken & Rice 18 oz (7 Pack) Small Box"
+        // },
+        "quantity": 2,
+        "rate": 76.99,
+        "location": "267"
+        // {
+        //   "id": "267",
+        //   "refName": "Smart WH - Independence MO"
+        // }
+      },
+      {
+        "item": 
+        {
+          "id": "2969"
+        },
+        "amount": 11.46,
+        "rate": 11.46
+      },
+      {
+        "item": {
+          "id": "8490",
+          "refName": "JustFresh Home-Cooked Chicken (12 oz 7 Pack)"
+        },
+        "quantity": 2,
+        "rate": 49,
+        "location": {
+          "id": "277",
+          "refName": "Smart WH - Edgerton KS"
+        }
+      },
+      {
+        "item": {
+          "id": "2969"
+        },
+        "amount": 7.29,
+        "rate": 7.29
+      },
+      {
+        "item": {
+          "id": "4094",
+          "refName": "Shipping Price Adjustment"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": {
+          "id": "-1"
+        },
+        "rate": -19.99
+      },
+      {
+        "item": {
+          "id": "4044",
+          "refName": "Shipping Price Adjustment"
+        },
+        "itemType": {
+          "id": "Discount",
+          "refName": "Discount"
+        },
+        "price": 
+        {
+          "id": "-1"
+        },
+        "rate": -19.99
+      }
+    ]
+  }
+}
+ 

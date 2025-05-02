@@ -1,0 +1,131 @@
+    {
+        "header": {
+            "sfOrderId": "1OsVF000000m4Nt0AI",
+            "status": "Approved",
+            "orderNumber": "stg-00106281",
+            "orderDate": "2025-03-18"
+        },
+        "shippingInstructions": [
+            {
+                "cost": "39.98"
+            }
+        ],
+        "billTo": {
+            "address": {
+                "line1": "2630 Granite Avenue Northwest",
+                "postalCode": "87104",
+                "state": "NM",
+                "city": "Albuquerque",
+                "countryCode": "US",
+                "countryText": "United States"
+            },
+            "contact": {
+                "name": "BellaSplit NewShipment"
+            }
+        },
+        "fulfillments": [
+            {
+                "sfFulfillmentId": "0a3VF0000002r1pYAA",
+                "sfLocationId": "131Uv000000GGGvIAO",
+                "locationName": "Smart WH - Edgerton KS"
+            },
+            {
+                "sfFulfillmentId": "0a3VF0000002r3RYAQ",
+                "sfLocationId": "131Uv000000GGX3IAO",
+                "locationName": "Smart WH - Independence MO"
+            }
+        ],
+        "shipTo": {
+            "address": {
+                "line1": "2630 Granite Avenue Northwest",
+                "postalCode": "87104",
+                "state": "NM",
+                "city": "Albuquerque",
+                "countryCode": "US",
+                "countryText": "United States"
+            },
+            "contact": {
+                "name": "BellaSplit NewShipment",
+                "phone": "829-121-0000",
+                "email": "splitshipment.0908cd@burnermail.io"
+            }
+        },
+        "lineItems": [
+            {
+                "description": "Shipping - Ambient",
+                "unitPrice": "19.99",
+                "quantity": "1.0",
+                "totalTaxAmount": "0.0",
+                "nsId": null
+            },
+            {
+                "description": "Shipping - Frozen",
+                "unitPrice": "19.99",
+                "quantity": "1.0",
+                "totalTaxAmount": "0.0",
+                "nsId": null
+            },
+            {
+                "description": "Chicken Breast Treat 5 oz",
+                "unitPrice": "18.99",
+                "quantity": "1.0",
+                "totalTaxAmount": "1.38",
+                "nsId": "1855",
+                "sfWarehouseId": "131Uv000000GGGvIAO"
+            },
+            {
+                "description": "Turkey & Whole Wheat Macaroni 18 oz (21 Pack) Medium Box",
+                "unitPrice": "230.99",
+                "quantity": "1.0",
+                "totalTaxAmount": "16.73",
+                "nsId": "3530",
+                "sfWarehouseId": "131Uv000000GGX3IAO"
+            },
+            {
+                "description": "Pantry Fresh - Turkey & Whole Wheat Macaroni 12.5 oz Case (12 Pack)",
+                "unitPrice": "89.99",
+                "quantity": "1.0",
+                "totalTaxAmount": "6.52",
+                "nsId": "1834",
+                "sfWarehouseId": "131Uv000000GGGvIAO"
+            },
+            {
+                "description": "FBS100401050002 - Subsequent Autoship Discount Promotion",
+                "unitPrice": "-11.55",
+                "nsId": "4146",
+                "sfId": "0ahVF0000003AqrYAE"
+            },
+            {
+                "description": "200201180400 - Subsequent Autoship Discount Promotion",
+                "unitPrice": "-0.95",
+                "nsId": "4146",
+                "sfId": "0ahVF0000003AqsYAE"
+            },
+            {
+                "description": "100101051033 - Subsequent Autoship Discount Promotion",
+                "unitPrice": "-4.5",
+                "nsId": "4146",
+                "sfId": "0ahVF0000003AqtYAE"
+            },
+            {
+                "description": "Shipping Price Adjustment",
+                "unitPrice": "-19.99",
+                "nsId": "4094",
+                "sfId": "0ahVF0000003AquYAE"
+            },
+            {
+                "description": "Shipping Price Adjustment",
+                "unitPrice": "-19.99",
+                "nsId": "4044",
+                "sfId": "0ahVF0000003AqvYAE"
+            }
+        ],
+        "customerDeposits": [
+            {
+                "amount": "347.6",
+                "batchId": "1509769",
+                "method": "Visa - 5262",
+                "sfPaymentId": "0bMVF0000004N2r2AE"
+            }
+        ]
+    },

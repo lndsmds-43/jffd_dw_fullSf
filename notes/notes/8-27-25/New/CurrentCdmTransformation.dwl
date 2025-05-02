@@ -1,0 +1,78 @@
+// Current CDM transformation
+
+// The response from the SF query is a java array.
+// This transform is utilized both in the Get Order Summary (singular) 
+// and Get Order Summaries as both are operating off said array.
+%dw 2.0
+output application/json
+---
+vars.sfOrderResponse map ((order) -> {
+    header: {
+        sfOrderId: order.Id,
+        status: order.Status,
+        orderNumber: order.OrderNumber,
+        orderDate: (order.CreatedDate >> "PST") as Date
+    },
+    shippingInstructions : [
+        {
+            cost: order.TotalDeliveryAmount
+        }
+    ],
+    billTo : {
+        address : {
+            line1: order.BillingStreet,
+            postalCode: order.BillingPostalCode,
+            state: order.BillingStateCode,
+            city: order.BillingCity,
+            countryCode: order.BillingCountryCode,
+            countryText: order.BillingCountry
+        },
+        contact: {
+            name: order.Account.Name
+        },
+    },
+    fulfillments: order.FulfillmentOrders map {
+        sfFulfillmentId: $.Id,
+        sfLocationId: $.FulfilledFromLocation.Id,
+        locationName: $.FulfilledFromLocation.Name
+    },
+    shipTo : {
+        address: {
+            line1: order.FulfillmentOrders[0].FulfilledToStreet,
+            postalCode: order.FulfillmentOrders[0].FulfilledToPostalCode,
+            state: order.FulfillmentOrders[0].FulfilledToStateCode,
+            city: order.FulfillmentOrders[0].FulfilledToCity,
+            countryCode: order.FulfillmentOrders[0].FulfilledToCountryCode,
+            countryText: order.FulfillmentOrders[0].FulfilledToCountry
+        },
+        contact: {
+            name: order.FulfillmentOrders[0].FulfilledToName,
+            phone: order.FulfillmentOrders[0].FulfilledToPhone,
+            email: order.FulfillmentOrders[0].FulfilledToEmailAddress
+        }
+    },
+    lineItems : (
+        (order.OrderItemSummaries map {
+            description: $.Name,
+            unitPrice: $.UnitPrice,
+            quantity: $.QuantityNetOrdered,
+            totalTaxAmount: $.TotalTaxAmount,
+            nsId: $.NS_Item_ID__c,
+            (sfWarehouseId: vars.itemsToWarehouseIdMapping[$.Id]) if vars.itemsToWarehouseIdMapping[$.Id] != null
+        }) default []
+        ++
+        (order.OrderItemAdjustmentLineItemSummaries map {
+            description: $.OriginalOrderItemAdjustmentLineItem.Name,
+            unitPrice: $.TotalAmtWithTax,
+            nsId: $.AdjustmentCause.NS_Item_ID__c,
+            sfId: $.Id
+        }
+        ) default[]
+    ),
+    customerDeposits : [{
+        amount: order.OrderPaymentSummaries[0].CapturedAmount,
+        batchId: order.batchId__c,
+        method: order.OrderPaymentSummaries[0].Method,
+        sfPaymentId: order.OrderPaymentSummaries[0].Id,             
+    }]
+})
