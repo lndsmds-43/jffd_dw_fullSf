@@ -2,13 +2,11 @@
 import webhook::message
 var message = webhook::message::main(payload : {}).msg
 ---
+[message] map((message) ->
 {
-    "sfOrderId" : message.custom_fields."SF Order Summary IntID",
-    "sfShipmentId" : message.custom_fields."SF Shipment Record IntID",
-    "sfFulfillmentId" : message.custom_fields."OMS fulfilment ID",
-    "nsFulfillmentId" : message.custom_fields."Fulfilment Request IntID",
-    "nsShipmentId" : message.custom_fields."NetSuite IF Int ID",
+    ("sfShipmentId" : message.custom_fields."SF Shipment Record IntID") if (not isEmpty(message.custom_fields."SF Shipment Record IntID")),
+    ("nsShipmentId" : message.custom_fields."NetSuite IF Int ID") if (not isEmpty(message.custom_fields."NetSuite IF Int ID")),
     "status" : message.subtag_message,
-    "trackingNumber" : message.tracking_number,
-    "deliveryMethod" : message.shipment_type
+    "trackingNumber" : message.tracking_number
 }
+)
