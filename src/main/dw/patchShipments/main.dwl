@@ -97,23 +97,23 @@ var patchShipmentsRequestMessage = run_patchShipmentsRequestMessage(payload, {
 // ---
 // executableUpdate(updateFile, sobject)
 
-// ~~~ resume ~~~
-var terminalReturn = 
-{
-  "status": 0,
-  "result": {
-    "jobId": "750VF00000EzGnoYAF"
-  },
-  "warnings": []
-}
-output text/plain
----
-executableUpdateResume(terminalReturn)
+// // ~~~ resume ~~~
+// var terminalReturn = 
+// {
+//   "status": 0,
+//   "result": {
+//     "jobId": "750VF00000EzGnoYAF"
+//   },
+//   "warnings": []
+// }
+// output text/plain
+// ---
+// executableUpdateResume(terminalReturn)
 
 ///////////////////////////////////////////
 // !!! Query !!! //
-// var query = getShipmentsRequestMessage
-// output text/plain
-// ---
-// modules::sfFunctions::executable(getShipmentsRequestMessage)
+var query = getShipmentsRequestMessage
+output text/plain
+---
+modules::sfFunctions::executable(getShipmentsRequestMessage)
 // /////////////////////////////////////
