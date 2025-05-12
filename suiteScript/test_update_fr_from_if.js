@@ -5,6 +5,7 @@
  */
 define(['N/record', 'N/log'], function(record, log) {
 
+    // This is deployed as an on edit event type trigger
     function afterSubmit(context) {
         var fulfillment = context.newRecord;
         
